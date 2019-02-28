@@ -1,3 +1,776 @@
-{
-    
-}
+[
+    {
+      "School": "Air Force",
+      "Mascot": "Falcons",
+      "Conference": "Mountain West",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Akron",
+      "Mascot": "Zips",
+      "Conference": "MAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Alabama",
+      "Mascot": "Crimson Tide",
+      "Conference": "SEC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "UAB",
+      "Mascot": "Blazers",
+      "Conference": "C-USA",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Appalachian State",
+      "Mascot": "Mountaineers",
+      "Conference": "Sun Belt",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Arizona",
+      "Mascot": "Wildcats",
+      "Conference": "Pac-12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Arizona State",
+      "Mascot": "Sun Devils",
+      "Conference": "Pac-12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Arkansas",
+      "Mascot": "Razorbacks",
+      "Conference": "SEC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Arkansas State",
+      "Mascot": "Red Wolves",
+      "Conference": "Sun Belt",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Army",
+      "Mascot": "Black Knights",
+      "Conference": "Independent",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Auburn",
+      "Mascot": "Tigers",
+      "Conference": "SEC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Ball State",
+      "Mascot": "Cardinals",
+      "Conference": "MAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Baylor",
+      "Mascot": "Bears",
+      "Conference": "Big 12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Boise State",
+      "Mascot": "Broncos",
+      "Conference": "Mountain West",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Boston College",
+      "Mascot": "Eagles",
+      "Conference": "ACC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Bowling Green",
+      "Mascot": "Falcons",
+      "Conference": "MAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Buffalo",
+      "Mascot": "Bulls",
+      "Conference": "MAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Brigham Young",
+      "Mascot": "Cougars",
+      "Conference": "Independent",
+      "S-Val": 0.0
+    },
+    {
+      "School": "California",
+      "Mascot": "Golden Bears",
+      "Conference": "Pac-12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "UCLA",
+      "Mascot": "Bruins",
+      "Conference": "Pac-12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "UCF",
+      "Mascot": "Knights",
+      "Conference": "AAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Central Michigan",
+      "Mascot": "Chippewas",
+      "Conference": "MAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Charlotte",
+      "Mascot": "49ers",
+      "Conference": "C-USA",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Cincinnati",
+      "Mascot": "Bearcats",
+      "Conference": "AAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Clemson",
+      "Mascot": "Tigers",
+      "Conference": "ACC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Coastal Carolina",
+      "Mascot": "Chanticleers",
+      "Conference": "Sun Belt",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Colorado",
+      "Mascot": "Buffaloes",
+      "Conference": "Pac-12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Colorado State",
+      "Mascot": "Rams",
+      "Conference": "Mountain West",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Connecticut",
+      "Mascot": "Huskies",
+      "Conference": "AAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Duke",
+      "Mascot": "Blue Devils",
+      "Conference": "ACC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Eastern Michigan",
+      "Mascot": "Eagles",
+      "Conference": "MAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "East Carolina",
+      "Mascot": "Pirates",
+      "Conference": "AAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Florida International",
+      "Mascot": "Panthers",
+      "Conference": "C-USA",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Florida",
+      "Mascot": "Gators",
+      "Conference": "SEC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Florida Atlantic",
+      "Mascot": "Owls",
+      "Conference": "C-USA",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Florida State",
+      "Mascot": "Seminoles",
+      "Conference": "ACC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Fresno State",
+      "Mascot": "Bulldogs",
+      "Conference": "Mountain West",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Georgia",
+      "Mascot": "Bulldogs",
+      "Conference": "SEC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Georgia Southern",
+      "Mascot": "Eagles",
+      "Conference": "Sun Belt",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Georgia State",
+      "Mascot": "Panthers",
+      "Conference": "Sun Belt",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Georgia Tech",
+      "Mascot": "Yellow Jackets",
+      "Conference": "ACC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Hawaii",
+      "Mascot": "Rainbow Warriors",
+      "Conference": "Mountain West",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Houston",
+      "Mascot": "Cougars",
+      "Conference": "AAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Illinois",
+      "Mascot": "Fighting Illini",
+      "Conference": "Big Ten",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Indiana",
+      "Mascot": "Hoosiers",
+      "Conference": "Big Ten",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Iowa",
+      "Mascot": "Hawkeyes",
+      "Conference": "Big Ten",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Iowa State",
+      "Mascot": "Cyclones",
+      "Conference": "Big 12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Kansas",
+      "Mascot": "Jayhawks",
+      "Conference": "Big 12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Kansas State",
+      "Mascot": "Wildcats",
+      "Conference": "Big 12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Kent State",
+      "Mascot": "Golden Flashes",
+      "Conference": "MAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Kentucky",
+      "Mascot": "Wildcats",
+      "Conference": "SEC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "LSU",
+      "Mascot": "Tigers",
+      "Conference": "SEC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Louisiana Tech",
+      "Mascot": "Bulldogs",
+      "Conference": "C-USA",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Louisiana",
+      "Mascot": "Ragin' Cajuns",
+      "Conference": "Sun Belt",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Louisiana Monroe",
+      "Mascot": "Warhawks",
+      "Conference": "Sun Belt",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Louisville",
+      "Mascot": "Cardinals",
+      "Conference": "ACC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Marshall",
+      "Mascot": "Thundering Herd",
+      "Conference": "C-USA",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Maryland",
+      "Mascot": "Terrapins",
+      "Conference": "Big Ten",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Massachusetts",
+      "Mascot": "Minutemen",
+      "Conference": "Independent",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Memphis",
+      "Mascot": "Tigers",
+      "Conference": "AAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Miami",
+      "Mascot": "Hurricanes",
+      "Conference": "ACC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Miami (OH)",
+      "Mascot": "RedHawks",
+      "Conference": "MAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Michigan",
+      "Mascot": "Wolverines",
+      "Conference": "Big Ten",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Michigan State",
+      "Mascot": "Spartans",
+      "Conference": "Big Ten",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Middle Tennessee",
+      "Mascot": "Blue Raiders",
+      "Conference": "C-USA",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Minnesota",
+      "Mascot": "Golden Gophers",
+      "Conference": "Big Ten",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Ole Miss",
+      "Mascot": "Rebels",
+      "Conference": "SEC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Mississippi State",
+      "Mascot": "Bulldogs",
+      "Conference": "SEC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Missouri",
+      "Mascot": "Tigers",
+      "Conference": "SEC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Navy",
+      "Mascot": "Midshipmen",
+      "Conference": "AAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Nebraska",
+      "Mascot": "Cornhuskers",
+      "Conference": "Big Ten",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Nevada",
+      "Mascot": "Wolf Pack",
+      "Conference": "Mountain West",
+      "S-Val": 0.0
+    },
+    {
+      "School": "UNLV",
+      "Mascot": "Rebels",
+      "Conference": "Mountain West",
+      "S-Val": 0.0
+    },
+    {
+      "School": "New Mexico",
+      "Mascot": "Lobos",
+      "Conference": "Mountain West",
+      "S-Val": 0.0
+    },
+    {
+      "School": "New Mexico State",
+      "Mascot": "Aggies",
+      "Conference": "Independent",
+      "S-Val": 0.0
+    },
+    {
+      "School": "North Carolina",
+      "Mascot": "Tar Heels",
+      "Conference": "ACC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "NC State",
+      "Mascot": "Wolfpack",
+      "Conference": "ACC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "North Texas",
+      "Mascot": "Mean Green",
+      "Conference": "C-USA",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Northern Illinois",
+      "Mascot": "Huskies",
+      "Conference": "MAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Northwestern",
+      "Mascot": "Wildcats",
+      "Conference": "Big Ten",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Notre Dame",
+      "Mascot": "Fighting Irish",
+      "Conference": "Independent",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Ohio",
+      "Mascot": "Bobcats",
+      "Conference": "MAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Ohio State",
+      "Mascot": "Buckeyes",
+      "Conference": "Big Ten",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Oklahoma",
+      "Mascot": "Sooners",
+      "Conference": "Big 12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Oklahoma State",
+      "Mascot": "Cowboys",
+      "Conference": "Big 12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Old Dominion",
+      "Mascot": "Monarchs",
+      "Conference": "C-USA",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Oregon",
+      "Mascot": "Ducks",
+      "Conference": "Pac-12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Oregon State",
+      "Mascot": "Beavers",
+      "Conference": "Pac-12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Penn State",
+      "Mascot": "Nittany Lions",
+      "Conference": "Big Ten",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Pittsburgh",
+      "Mascot": "Panthers",
+      "Conference": "ACC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Purdue",
+      "Mascot": "Boilermakers",
+      "Conference": "Big Ten",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Rice",
+      "Mascot": "Owls",
+      "Conference": "C-USA",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Rutgers",
+      "Mascot": "Scarlet Knights",
+      "Conference": "Big Ten",
+      "S-Val": 0.0
+    },
+    {
+      "School": "San Diego State",
+      "Mascot": "Aztecs",
+      "Conference": "Mountain West",
+      "S-Val": 0.0
+    },
+    {
+      "School": "San Jose State",
+      "Mascot": "Spartans",
+      "Conference": "Mountain West",
+      "S-Val": 0.0
+    },
+    {
+      "School": "South Alabama",
+      "Mascot": "Jaguars",
+      "Conference": "Sun Belt",
+      "S-Val": 0.0
+    },
+    {
+      "School": "South Carolina",
+      "Mascot": "Gamecocks",
+      "Conference": "SEC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "South Florida",
+      "Mascot": "Bulls",
+      "Conference": "AAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "USC",
+      "Mascot": "Trojans",
+      "Conference": "Pac-12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "SMU",
+      "Mascot": "Mustangs",
+      "Conference": "AAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Southern Miss",
+      "Mascot": "Golden Eagles",
+      "Conference": "C-USA",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Stanford",
+      "Mascot": "Cardinal",
+      "Conference": "Pac-12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Syracuse",
+      "Mascot": "Orange",
+      "Conference": "ACC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Texas Christian",
+      "Mascot": "Horned Frogs",
+      "Conference": "Big 12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Temple",
+      "Mascot": "Owls",
+      "Conference": "AAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Tennessee",
+      "Mascot": "Volunteers",
+      "Conference": "SEC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Texas",
+      "Mascot": "Longhorns",
+      "Conference": "Big 12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Texas A&M",
+      "Mascot": "Aggies",
+      "Conference": "SEC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Texas State",
+      "Mascot": "Bobcats",
+      "Conference": "Sun Belt",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Texas Tech",
+      "Mascot": "Red Raiders",
+      "Conference": "Big 12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "UTEP",
+      "Mascot": "Miners",
+      "Conference": "C-USA",
+      "S-Val": 0.0
+    },
+    {
+      "School": "UT San Antonio",
+      "Mascot": "Roadrunners",
+      "Conference": "C-USA",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Toledo",
+      "Mascot": "Rockets",
+      "Conference": "MAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Troy",
+      "Mascot": "Trojans",
+      "Conference": "Sun Belt",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Tulane",
+      "Mascot": "Green Wave",
+      "Conference": "AAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Tulsa",
+      "Mascot": "Golden Hurricane",
+      "Conference": "AAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Utah",
+      "Mascot": "Utes",
+      "Conference": "Pac-12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Utah State",
+      "Mascot": "Aggies",
+      "Conference": "Mountain West",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Vanderbilt",
+      "Mascot": "Commodores",
+      "Conference": "SEC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Virginia",
+      "Mascot": "Cavaliers",
+      "Conference": "ACC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Virginia Tech",
+      "Mascot": "Hokies",
+      "Conference": "ACC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Wake Forest",
+      "Mascot": "Demon Deacons",
+      "Conference": "ACC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Washington",
+      "Mascot": "Huskies",
+      "Conference": "Pac-12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Washington State",
+      "Mascot": "Cougars",
+      "Conference": "Pac-12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "West Virginia",
+      "Mascot": "Mountaineers",
+      "Conference": "Big 12",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Western Kentucky",
+      "Mascot": "Hilltoppers",
+      "Conference": "C-USA",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Western Michigan",
+      "Mascot": "Broncos",
+      "Conference": "MAC",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Wisconsin",
+      "Mascot": "Badgers",
+      "Conference": "Big Ten",
+      "S-Val": 0.0
+    },
+    {
+      "School": "Wyoming",
+      "Mascot": "Cowboys",
+      "Conference": "Mountain West",
+      "S-Val": 0.0
+    }
+  ]
