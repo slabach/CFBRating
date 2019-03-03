@@ -12,6 +12,21 @@ import wikipedia
 class App:
     def __init__(self, teams_path):
         self.teamsPath = teams_path
+        self.model_o_points_scored = 35
+        self.model_o_yrds_rush = 6.5
+        self.model_o_yrds_pass = 8
+        self.model_o_yrds_total = 450
+        self.model_o_possession_time = 35
+
+        self.model_d_points_allow = 20
+        self.model_d_yrds_rush = 4
+        self.model_d_yrds_pass = 6
+        self.model_d_yrds_total = 275
+        self.model_d_possession_time = 25
+
+        self.model_game_margin = 15
+        self.model_game_penalties = 6
+        self.model_game_turnover_margin = 1.5
 
     def get_weekly_games(self, week_num):
         
@@ -48,25 +63,7 @@ class App:
         print("Complete")
 
     def sval_calc(self, week_num):
-        # region Model Values
-        model_o_points_scored = 35
-        model_o_yrds_rush = 6.5
-        model_o_yrds_pass = 8
-        model_o_yrds_total = 450
-        model_o_possession_time = 35
-
-        model_d_points_allow = 20
-        model_d_yrds_rush = 4
-        model_d_yrds_pass = 6
-        model_d_yrds_total = 275
-        model_d_possession_time = 25
-
-        model_game_margin = 15
-        model_game_penalties = 6
-        model_game_turnover_margin = 1.5
-
-        # endregion
-
+        
         def opp_strength(name):
 
             with open(self.teamsPath, "r") as ostr:
@@ -219,11 +216,11 @@ class App:
                 if team_o_points_scored == 0:
                     o_sval_points = 0
                 else:
-                    o_sval_points = (.36 * (team_o_points_scored / model_o_points_scored))
-                o_sval_ypr = (.18 * (team_o_yrds_rush / model_o_yrds_rush))
-                o_sval_ypp = (.18 * (team_o_yrds_pass / model_o_yrds_pass))
-                o_sval_yd_total = (.18 * (team_o_yrds_total / model_o_yrds_total))
-                o_sval_possession = (.1 * (team_o_possession_time / model_o_possession_time))
+                    o_sval_points = (.36 * (team_o_points_scored / self.model_o_points_scored))
+                o_sval_ypr = (.18 * (team_o_yrds_rush / self.model_o_yrds_rush))
+                o_sval_ypp = (.18 * (team_o_yrds_pass / self.model_o_yrds_pass))
+                o_sval_yd_total = (.18 * (team_o_yrds_total / self.model_o_yrds_total))
+                o_sval_possession = (.1 * (team_o_possession_time / self.model_o_possession_time))
 
                 if (o_sval_points + o_sval_ypr + o_sval_ypp + o_sval_yd_total + o_sval_possession) > 1:
                     o_sval = 1.0
@@ -235,18 +232,18 @@ class App:
                 if team_d_points_allow == 0:
                     d_sval_points_allowed = (.4 * 1)
                 else:
-                    d_sval_points_allowed = (.4 * (1 / (team_d_points_allow / model_d_points_allow)))
+                    d_sval_points_allowed = (.4 * (1 / (team_d_points_allow / self.model_d_points_allow)))
 
                 try:
                     if team_d_yrds_rush <= 0:
                         d_sval_ypr = (.15 * 1.0)
                     else:
-                        d_sval_ypr = (.15 * (1 / (team_d_yrds_rush / model_d_yrds_rush)))
+                        d_sval_ypr = (.15 * (1 / (team_d_yrds_rush / self.model_d_yrds_rush)))
                 except ZeroDivisionError:
                     d_sval_ypr = (.15 * 1.0)
 
                 try:
-                    d_sval_ypp = (.15 * (1 / (team_d_yrds_pass / model_d_yrds_pass)))
+                    d_sval_ypp = (.15 * (1 / (team_d_yrds_pass / self.model_d_yrds_pass)))
                 except ZeroDivisionError:
                     d_sval_ypp = (.15 * 1.0)
 
@@ -254,14 +251,14 @@ class App:
                     if team_d_yrds_total <= 0:
                         d_sval_yd_given = (.15 * 1.0)
                     else:
-                        d_sval_yd_given = (.2 * (1 / (team_d_yrds_total / model_d_yrds_total)))
+                        d_sval_yd_given = (.2 * (1 / (team_d_yrds_total / self.model_d_yrds_total)))
                 except ZeroDivisionError:
                     d_sval_yd_given = (.2 * 1.0)
 
-                if team_d_possession_time < model_d_possession_time:
-                    d_sval_pos_time_allowed = (.1 * (model_d_possession_time / team_d_possession_time))
+                if team_d_possession_time < self.model_d_possession_time:
+                    d_sval_pos_time_allowed = (.1 * (self.model_d_possession_time / team_d_possession_time))
                 else:
-                    d_sval_pos_time_allowed = (.1 * (1 / (team_d_possession_time / model_d_possession_time)))
+                    d_sval_pos_time_allowed = (.1 * (1 / (team_d_possession_time / self.model_d_possession_time)))
 
                 if (d_sval_points_allowed + d_sval_ypr + d_sval_ypp + d_sval_yd_given + d_sval_pos_time_allowed) > 1:
                     d_sval = 1.0
@@ -270,24 +267,24 @@ class App:
                 # endregion
 
                 # region misc calculations
-                if (.2 * (team_game_margin / model_game_margin)) > 0.4:
+                if (.2 * (team_game_margin / self.model_game_margin)) > 0.4:
                     m_sval_margin = 0.4
-                elif (.2 * (team_game_margin / model_game_margin)) < -0.4:
+                elif (.2 * (team_game_margin / self.model_game_margin)) < -0.4:
                     m_sval_margin = -0.4
                 else:
-                    m_sval_margin = (.2 * (team_game_margin / model_game_margin))
+                    m_sval_margin = (.2 * (team_game_margin / self.model_game_margin))
 
                 if team_game_penalties == 0:
                     m_sval_penalties = (.05 * 1)
                 else:
-                    m_sval_penalties = (.05 * (1 / (team_game_penalties / model_game_penalties)))
+                    m_sval_penalties = (.05 * (1 / (team_game_penalties / self.model_game_penalties)))
 
                 if team_game_turnover_margin > 1:
-                    m_sval_turnovers = (.1 * (.5 * (team_game_turnover_margin / model_game_turnover_margin)))
+                    m_sval_turnovers = (.1 * (.5 * (team_game_turnover_margin / self.model_game_turnover_margin)))
                 elif team_game_turnover_margin == 1:
                     m_sval_turnovers = (.1 * 1)
                 else:
-                    m_sval_turnovers = (.1 * ((team_game_turnover_margin / model_game_turnover_margin) - 1))
+                    m_sval_turnovers = (.1 * ((team_game_turnover_margin / self.model_game_turnover_margin) - 1))
 
                 if (opponent_str_mod < 0.8) and week_num <= 3:
                     opponent_str = (.65 * 0)
