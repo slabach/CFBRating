@@ -89,6 +89,7 @@ class App:
             for gs in game_json:
                 
                 #region set game stats
+                #if team is first team in game file
                 if gs["teams"][0]["school"] == team:
                     opponent = gs["teams"][1]["school"]
                     if "José" in opponent:
@@ -147,6 +148,7 @@ class App:
 
                     # print(f"team: {gs['teams'][0]['school']} - time: {team_game_penalties}")
 
+                #if team is second team in game file
                 else:
                     opponent = gs["teams"][0]["school"]
                     opponent_str_mod = float(opp_strength(opponent))
