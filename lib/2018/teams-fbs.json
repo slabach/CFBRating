@@ -1,776 +1,2769 @@
 [
-    {
-      "School": "Air Force",
-      "Mascot": "Falcons",
-      "Conference": "Mountain West",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Akron",
-      "Mascot": "Zips",
-      "Conference": "MAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Alabama",
-      "Mascot": "Crimson Tide",
-      "Conference": "SEC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "UAB",
-      "Mascot": "Blazers",
-      "Conference": "C-USA",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Appalachian State",
-      "Mascot": "Mountaineers",
-      "Conference": "Sun Belt",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Arizona",
-      "Mascot": "Wildcats",
-      "Conference": "Pac-12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Arizona State",
-      "Mascot": "Sun Devils",
-      "Conference": "Pac-12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Arkansas",
-      "Mascot": "Razorbacks",
-      "Conference": "SEC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Arkansas State",
-      "Mascot": "Red Wolves",
-      "Conference": "Sun Belt",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Army",
-      "Mascot": "Black Knights",
-      "Conference": "Independent",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Auburn",
-      "Mascot": "Tigers",
-      "Conference": "SEC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Ball State",
-      "Mascot": "Cardinals",
-      "Conference": "MAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Baylor",
-      "Mascot": "Bears",
-      "Conference": "Big 12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Boise State",
-      "Mascot": "Broncos",
-      "Conference": "Mountain West",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Boston College",
-      "Mascot": "Eagles",
-      "Conference": "ACC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Bowling Green",
-      "Mascot": "Falcons",
-      "Conference": "MAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Buffalo",
-      "Mascot": "Bulls",
-      "Conference": "MAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Brigham Young",
-      "Mascot": "Cougars",
-      "Conference": "Independent",
-      "S-Val": 0.0
-    },
-    {
-      "School": "California",
-      "Mascot": "Golden Bears",
-      "Conference": "Pac-12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "UCLA",
-      "Mascot": "Bruins",
-      "Conference": "Pac-12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "UCF",
-      "Mascot": "Knights",
-      "Conference": "AAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Central Michigan",
-      "Mascot": "Chippewas",
-      "Conference": "MAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Charlotte",
-      "Mascot": "49ers",
-      "Conference": "C-USA",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Cincinnati",
-      "Mascot": "Bearcats",
-      "Conference": "AAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Clemson",
-      "Mascot": "Tigers",
-      "Conference": "ACC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Coastal Carolina",
-      "Mascot": "Chanticleers",
-      "Conference": "Sun Belt",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Colorado",
-      "Mascot": "Buffaloes",
-      "Conference": "Pac-12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Colorado State",
-      "Mascot": "Rams",
-      "Conference": "Mountain West",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Connecticut",
-      "Mascot": "Huskies",
-      "Conference": "AAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Duke",
-      "Mascot": "Blue Devils",
-      "Conference": "ACC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Eastern Michigan",
-      "Mascot": "Eagles",
-      "Conference": "MAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "East Carolina",
-      "Mascot": "Pirates",
-      "Conference": "AAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Florida International",
-      "Mascot": "Panthers",
-      "Conference": "C-USA",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Florida",
-      "Mascot": "Gators",
-      "Conference": "SEC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Florida Atlantic",
-      "Mascot": "Owls",
-      "Conference": "C-USA",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Florida State",
-      "Mascot": "Seminoles",
-      "Conference": "ACC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Fresno State",
-      "Mascot": "Bulldogs",
-      "Conference": "Mountain West",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Georgia",
-      "Mascot": "Bulldogs",
-      "Conference": "SEC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Georgia Southern",
-      "Mascot": "Eagles",
-      "Conference": "Sun Belt",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Georgia State",
-      "Mascot": "Panthers",
-      "Conference": "Sun Belt",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Georgia Tech",
-      "Mascot": "Yellow Jackets",
-      "Conference": "ACC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Hawaii",
-      "Mascot": "Rainbow Warriors",
-      "Conference": "Mountain West",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Houston",
-      "Mascot": "Cougars",
-      "Conference": "AAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Illinois",
-      "Mascot": "Fighting Illini",
-      "Conference": "Big Ten",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Indiana",
-      "Mascot": "Hoosiers",
-      "Conference": "Big Ten",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Iowa",
-      "Mascot": "Hawkeyes",
-      "Conference": "Big Ten",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Iowa State",
-      "Mascot": "Cyclones",
-      "Conference": "Big 12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Kansas",
-      "Mascot": "Jayhawks",
-      "Conference": "Big 12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Kansas State",
-      "Mascot": "Wildcats",
-      "Conference": "Big 12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Kent State",
-      "Mascot": "Golden Flashes",
-      "Conference": "MAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Kentucky",
-      "Mascot": "Wildcats",
-      "Conference": "SEC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "LSU",
-      "Mascot": "Tigers",
-      "Conference": "SEC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Louisiana Tech",
-      "Mascot": "Bulldogs",
-      "Conference": "C-USA",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Louisiana",
-      "Mascot": "Ragin' Cajuns",
-      "Conference": "Sun Belt",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Louisiana Monroe",
-      "Mascot": "Warhawks",
-      "Conference": "Sun Belt",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Louisville",
-      "Mascot": "Cardinals",
-      "Conference": "ACC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Marshall",
-      "Mascot": "Thundering Herd",
-      "Conference": "C-USA",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Maryland",
-      "Mascot": "Terrapins",
-      "Conference": "Big Ten",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Massachusetts",
-      "Mascot": "Minutemen",
-      "Conference": "Independent",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Memphis",
-      "Mascot": "Tigers",
-      "Conference": "AAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Miami",
-      "Mascot": "Hurricanes",
-      "Conference": "ACC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Miami (OH)",
-      "Mascot": "RedHawks",
-      "Conference": "MAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Michigan",
-      "Mascot": "Wolverines",
-      "Conference": "Big Ten",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Michigan State",
-      "Mascot": "Spartans",
-      "Conference": "Big Ten",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Middle Tennessee",
-      "Mascot": "Blue Raiders",
-      "Conference": "C-USA",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Minnesota",
-      "Mascot": "Golden Gophers",
-      "Conference": "Big Ten",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Ole Miss",
-      "Mascot": "Rebels",
-      "Conference": "SEC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Mississippi State",
-      "Mascot": "Bulldogs",
-      "Conference": "SEC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Missouri",
-      "Mascot": "Tigers",
-      "Conference": "SEC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Navy",
-      "Mascot": "Midshipmen",
-      "Conference": "AAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Nebraska",
-      "Mascot": "Cornhuskers",
-      "Conference": "Big Ten",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Nevada",
-      "Mascot": "Wolf Pack",
-      "Conference": "Mountain West",
-      "S-Val": 0.0
-    },
-    {
-      "School": "UNLV",
-      "Mascot": "Rebels",
-      "Conference": "Mountain West",
-      "S-Val": 0.0
-    },
-    {
-      "School": "New Mexico",
-      "Mascot": "Lobos",
-      "Conference": "Mountain West",
-      "S-Val": 0.0
-    },
-    {
-      "School": "New Mexico State",
-      "Mascot": "Aggies",
-      "Conference": "Independent",
-      "S-Val": 0.0
-    },
-    {
-      "School": "North Carolina",
-      "Mascot": "Tar Heels",
-      "Conference": "ACC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "NC State",
-      "Mascot": "Wolfpack",
-      "Conference": "ACC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "North Texas",
-      "Mascot": "Mean Green",
-      "Conference": "C-USA",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Northern Illinois",
-      "Mascot": "Huskies",
-      "Conference": "MAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Northwestern",
-      "Mascot": "Wildcats",
-      "Conference": "Big Ten",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Notre Dame",
-      "Mascot": "Fighting Irish",
-      "Conference": "Independent",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Ohio",
-      "Mascot": "Bobcats",
-      "Conference": "MAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Ohio State",
-      "Mascot": "Buckeyes",
-      "Conference": "Big Ten",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Oklahoma",
-      "Mascot": "Sooners",
-      "Conference": "Big 12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Oklahoma State",
-      "Mascot": "Cowboys",
-      "Conference": "Big 12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Old Dominion",
-      "Mascot": "Monarchs",
-      "Conference": "C-USA",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Oregon",
-      "Mascot": "Ducks",
-      "Conference": "Pac-12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Oregon State",
-      "Mascot": "Beavers",
-      "Conference": "Pac-12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Penn State",
-      "Mascot": "Nittany Lions",
-      "Conference": "Big Ten",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Pittsburgh",
-      "Mascot": "Panthers",
-      "Conference": "ACC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Purdue",
-      "Mascot": "Boilermakers",
-      "Conference": "Big Ten",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Rice",
-      "Mascot": "Owls",
-      "Conference": "C-USA",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Rutgers",
-      "Mascot": "Scarlet Knights",
-      "Conference": "Big Ten",
-      "S-Val": 0.0
-    },
-    {
-      "School": "San Diego State",
-      "Mascot": "Aztecs",
-      "Conference": "Mountain West",
-      "S-Val": 0.0
-    },
-    {
-      "School": "San Jose State",
-      "Mascot": "Spartans",
-      "Conference": "Mountain West",
-      "S-Val": 0.0
-    },
-    {
-      "School": "South Alabama",
-      "Mascot": "Jaguars",
-      "Conference": "Sun Belt",
-      "S-Val": 0.0
-    },
-    {
-      "School": "South Carolina",
-      "Mascot": "Gamecocks",
-      "Conference": "SEC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "South Florida",
-      "Mascot": "Bulls",
-      "Conference": "AAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "USC",
-      "Mascot": "Trojans",
-      "Conference": "Pac-12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "SMU",
-      "Mascot": "Mustangs",
-      "Conference": "AAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Southern Miss",
-      "Mascot": "Golden Eagles",
-      "Conference": "C-USA",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Stanford",
-      "Mascot": "Cardinal",
-      "Conference": "Pac-12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Syracuse",
-      "Mascot": "Orange",
-      "Conference": "ACC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Texas Christian",
-      "Mascot": "Horned Frogs",
-      "Conference": "Big 12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Temple",
-      "Mascot": "Owls",
-      "Conference": "AAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Tennessee",
-      "Mascot": "Volunteers",
-      "Conference": "SEC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Texas",
-      "Mascot": "Longhorns",
-      "Conference": "Big 12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Texas A&M",
-      "Mascot": "Aggies",
-      "Conference": "SEC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Texas State",
-      "Mascot": "Bobcats",
-      "Conference": "Sun Belt",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Texas Tech",
-      "Mascot": "Red Raiders",
-      "Conference": "Big 12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "UTEP",
-      "Mascot": "Miners",
-      "Conference": "C-USA",
-      "S-Val": 0.0
-    },
-    {
-      "School": "UT San Antonio",
-      "Mascot": "Roadrunners",
-      "Conference": "C-USA",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Toledo",
-      "Mascot": "Rockets",
-      "Conference": "MAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Troy",
-      "Mascot": "Trojans",
-      "Conference": "Sun Belt",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Tulane",
-      "Mascot": "Green Wave",
-      "Conference": "AAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Tulsa",
-      "Mascot": "Golden Hurricane",
-      "Conference": "AAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Utah",
-      "Mascot": "Utes",
-      "Conference": "Pac-12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Utah State",
-      "Mascot": "Aggies",
-      "Conference": "Mountain West",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Vanderbilt",
-      "Mascot": "Commodores",
-      "Conference": "SEC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Virginia",
-      "Mascot": "Cavaliers",
-      "Conference": "ACC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Virginia Tech",
-      "Mascot": "Hokies",
-      "Conference": "ACC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Wake Forest",
-      "Mascot": "Demon Deacons",
-      "Conference": "ACC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Washington",
-      "Mascot": "Huskies",
-      "Conference": "Pac-12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Washington State",
-      "Mascot": "Cougars",
-      "Conference": "Pac-12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "West Virginia",
-      "Mascot": "Mountaineers",
-      "Conference": "Big 12",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Western Kentucky",
-      "Mascot": "Hilltoppers",
-      "Conference": "C-USA",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Western Michigan",
-      "Mascot": "Broncos",
-      "Conference": "MAC",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Wisconsin",
-      "Mascot": "Badgers",
-      "Conference": "Big Ten",
-      "S-Val": 0.0
-    },
-    {
-      "School": "Wyoming",
-      "Mascot": "Cowboys",
-      "Conference": "Mountain West",
-      "S-Val": 0.0
+  {
+    "School": "Air Force",
+    "Mascot": "Falcons",
+    "Conference": "Mountain West",
+    "S-Val": 0.7825535487498779,
+    "Talent_Mod": 0.3785,
+    "S-Val-History": {
+      "Week1": 0.8205221978021979,
+      "Week2": 0.8018669591645978,
+      "Week4": 0.7313705228018543,
+      "Week5": 0.6424046764588921,
+      "Week6": 0.9669276666666667,
+      "Week7": 0.733274457875458,
+      "Week8": 0.7883232216754441,
+      "Week9": 0.7564459838786395,
+      "Week10": 0.6785438115496584,
+      "Week11": 0.8885193179197182,
+      "Week12": 0.6863193613583274,
+      "Week13": 0.8961244078470803
     }
-  ]
+  },
+  {
+    "School": "Akron",
+    "Mascot": "Zips",
+    "Conference": "MAC",
+    "S-Val": 0.6411092327676118,
+    "Talent_Mod": 0.7335,
+    "S-Val-History": {
+      "Week2": 0.8668265934065935,
+      "Week3": 0.8943179298972708,
+      "Week4": 0.6823543972048262,
+      "Week6": 0.47352353117406687,
+      "Week7": 0.524697785339936,
+      "Week8": 0.7146547869571496,
+      "Week9": 0.7346791794871795,
+      "Week10": 0.6162713045286862,
+      "Week11": 0.40952709128819587,
+      "Week12": 0.5855433539385972,
+      "Week13": 0.5589948512704684,
+      "Week14": 0.6319199887183711
+    }
+  },
+  {
+    "School": "Alabama",
+    "Mascot": "Crimson Tide",
+    "Conference": "SEC",
+    "S-Val": 0.9192592567085784,
+    "Talent_Mod": 1.9883,
+    "S-Val-History": {
+      "Week1": 1.0,
+      "Week3": 1.0,
+      "Week4": 0.9379588382177573,
+      "Week5": 1.0,
+      "Week6": 0.8936164957291746,
+      "Week7": 1.0,
+      "Week8": 1.0,
+      "Week10": 0.9990017582417583,
+      "Week11": 0.8757318681318682,
+      "Week12": 0.7715809523809524,
+      "Week13": 1.0,
+      "Week14": 0.8615467243038033,
+      "Week20": 0.8731585354165983,
+      "Week21": 0.6570344214981856
+    }
+  },
+  {
+    "School": "UAB",
+    "Mascot": "Blazers",
+    "Conference": "C-USA",
+    "S-Val": 0.8080823512559135,
+    "Talent_Mod": 0.7878,
+    "S-Val-History": {
+      "Week1": 0.875,
+      "Week2": 0.4670274440337975,
+      "Week3": 0.8633925532351774,
+      "Week5": 0.9063942527472527,
+      "Week6": 0.9168047619047619,
+      "Week7": 0.9577526666666667,
+      "Week8": 0.8304189887647994,
+      "Week9": 0.7911744835164836,
+      "Week10": 1.0,
+      "Week11": 0.7753192307692308,
+      "Week12": 0.6979119135137074,
+      "Week13": 0.4230384779410282,
+      "Week14": 0.8089181444898839,
+      "Week20": 1.0
+    }
+  },
+  {
+    "School": "Appalachian State",
+    "Mascot": "Mountaineers",
+    "Conference": "Sun Belt",
+    "S-Val": 0.8638010441646125,
+    "Talent_Mod": 0.7237,
+    "S-Val-History": {
+      "Week1": 0.8445371860071638,
+      "Week2": 0.8666666666666667,
+      "Week4": 0.9268333333333334,
+      "Week5": 0.9658096666666668,
+      "Week8": 0.833412695970696,
+      "Week9": 0.47812406266447205,
+      "Week10": 0.8144453296703297,
+      "Week11": 0.999924,
+      "Week12": 0.9886530322194627,
+      "Week13": 0.8192709157509157,
+      "Week14": 0.8668609743589744,
+      "Week20": 0.9610746666666667
+    }
+  },
+  {
+    "School": "Arizona",
+    "Mascot": "Wildcats",
+    "Conference": "Pac-12",
+    "S-Val": 0.7566856330934822,
+    "Talent_Mod": 1.1796,
+    "S-Val-History": {
+      "Week1": 0.6904957513552827,
+      "Week2": 0.5845519723192609,
+      "Week3": 0.7693550473116849,
+      "Week4": 0.9760806666666668,
+      "Week6": 0.8193097383764646,
+      "Week7": 0.5298969766473531,
+      "Week8": 0.8334001502797035,
+      "Week9": 0.8124,
+      "Week10": 0.9583943333333333,
+      "Week12": 0.5447726006785514,
+      "Week13": 0.8048847270600046
+    }
+  },
+  {
+    "School": "Arizona State",
+    "Mascot": "Sun Devils",
+    "Conference": "Pac-12",
+    "S-Val": 0.822117868763595,
+    "Talent_Mod": 1.3974,
+    "S-Val-History": {
+      "Week1": 1.0,
+      "Week2": 0.8219863846153845,
+      "Week3": 0.6947515025449276,
+      "Week4": 0.7300696260832875,
+      "Week5": 0.9292690959884584,
+      "Week6": 0.7404858005487233,
+      "Week8": 0.772557628094684,
+      "Week9": 0.8716295962392737,
+      "Week10": 0.9764119716208124,
+      "Week11": 0.8861921679436736,
+      "Week12": 0.7883530529624156,
+      "Week13": 0.813502905392892,
+      "Week20": 0.6623225618922017
+    }
+  },
+  {
+    "School": "Arkansas",
+    "Mascot": "Razorbacks",
+    "Conference": "SEC",
+    "S-Val": 0.6788664077932469,
+    "Talent_Mod": 1.4114,
+    "S-Val-History": {
+      "Week1": 0.9218787359816609,
+      "Week2": 0.8039721868718449,
+      "Week3": 0.386986714984081,
+      "Week4": 0.6623678579954136,
+      "Week5": 0.7500687783766264,
+      "Week6": 0.6687021678027456,
+      "Week7": 0.8066126682272753,
+      "Week8": 0.8491017582417583,
+      "Week9": 0.685323518002938,
+      "Week11": 0.7118781626509807,
+      "Week12": 0.4405261213488512,
+      "Week13": 0.4589782230347872
+    }
+  },
+  {
+    "School": "Arkansas State",
+    "Mascot": "Red Wolves",
+    "Conference": "Sun Belt",
+    "S-Val": 0.835342851355218,
+    "Talent_Mod": 0.8813,
+    "S-Val-History": {
+      "Week1": 0.8003624484119104,
+      "Week3": 0.7470543990906406,
+      "Week4": 0.887720431901432,
+      "Week5": 0.5963031470145767,
+      "Week8": 0.8640531477474354,
+      "Week9": 0.7342471936718051,
+      "Week10": 0.9657298864468865,
+      "Week11": 0.9764083333333333,
+      "Week12": 0.9105220989010989,
+      "Week13": 0.9442573333333334,
+      "Week20": 0.7621129450549452
+    }
+  },
+  {
+    "School": "Army",
+    "Mascot": "Black Knights",
+    "Conference": "Independent",
+    "S-Val": 0.8465753715499116,
+    "Talent_Mod": 0.4689,
+    "S-Val-History": {
+      "Week1": 0.6479813342890994,
+      "Week2": 0.8940000000000001,
+      "Week3": 0.7882970355394795,
+      "Week4": 0.7958078915077774,
+      "Week5": 0.9500844285714286,
+      "Week7": 1.0,
+      "Week8": 0.7739297373106633,
+      "Week9": 0.9583830000000001,
+      "Week10": 0.7724184798534799,
+      "Week11": 0.8506666666666667,
+      "Week12": 0.7518984615384615,
+      "Week15": 0.822012794871795,
+      "Week20": 1.0
+    }
+  },
+  {
+    "School": "Auburn",
+    "Mascot": "Tigers",
+    "Conference": "SEC",
+    "S-Val": 0.8370703937973911,
+    "Talent_Mod": 1.6811,
+    "S-Val-History": {
+      "Week1": 0.893658608058608,
+      "Week2": 0.8660000000000001,
+      "Week3": 0.8282300711120424,
+      "Week4": 0.8899256410256411,
+      "Week5": 0.8477205494505494,
+      "Week6": 0.6993404355741406,
+      "Week7": 0.8114285328674152,
+      "Week8": 0.9915052014652015,
+      "Week10": 0.7866791046989852,
+      "Week11": 0.6701035897582193,
+      "Week12": 0.9526666666666668,
+      "Week13": 0.6446567186886145,
+      "Week20": 1.0
+    }
+  },
+  {
+    "School": "Ball State",
+    "Mascot": "Cardinals",
+    "Conference": "MAC",
+    "S-Val": 0.6591968407305822,
+    "Talent_Mod": 0.7358,
+    "S-Val-History": {
+      "Week1": 0.87,
+      "Week2": 0.775951337210687,
+      "Week3": 0.5590737309722518,
+      "Week4": 0.6355888774467054,
+      "Week5": 0.9298956796299601,
+      "Week6": 0.6915182333295191,
+      "Week7": 0.7215855538695646,
+      "Week8": 0.5566081095074698,
+      "Week9": 0.4056436200061687,
+      "Week10": 0.511208701273181,
+      "Week12": 0.7080495876230866,
+      "Week13": 0.5452386578983928
+    }
+  },
+  {
+    "School": "Baylor",
+    "Mascot": "Bears",
+    "Conference": "Big 12",
+    "S-Val": 0.7720160202111939,
+    "Talent_Mod": 1.3581,
+    "S-Val-History": {
+      "Week1": 0.7534044564701998,
+      "Week2": 0.9341063626373627,
+      "Week3": 0.6967015938017913,
+      "Week4": 0.9235689487179488,
+      "Week5": 0.6478474332768469,
+      "Week6": 0.8691553125696667,
+      "Week7": 0.7854429396876663,
+      "Week9": 0.4592849311207099,
+      "Week10": 0.8058556587403698,
+      "Week11": 0.7234882578934325,
+      "Week12": 0.7096966593406594,
+      "Week13": 0.9150044826243052,
+      "Week20": 0.8126512258645617
+    }
+  },
+  {
+    "School": "Boise State",
+    "Mascot": "Broncos",
+    "Conference": "Mountain West",
+    "S-Val": 0.8295684820487007,
+    "Talent_Mod": 1.1042,
+    "S-Val-History": {
+      "Week1": 0.9007332904651549,
+      "Week2": 0.9085714285714286,
+      "Week3": 0.6111058526465832,
+      "Week5": 0.9529241831501831,
+      "Week6": 0.6602212045109807,
+      "Week7": 0.8154695843116457,
+      "Week9": 0.7205645139765134,
+      "Week10": 0.8564610329670329,
+      "Week11": 0.8408159413637503,
+      "Week12": 1.0,
+      "Week13": 0.9018467965771801,
+      "Week14": 0.7861079560439561
+    }
+  },
+  {
+    "School": "Boston College",
+    "Mascot": "Eagles",
+    "Conference": "ACC",
+    "S-Val": 0.8114050299840044,
+    "Talent_Mod": 1.0839,
+    "S-Val-History": {
+      "Week1": 0.9085714285714286,
+      "Week2": 0.912,
+      "Week3": 0.8906119149651598,
+      "Week4": 0.618110086194559,
+      "Week5": 0.8423913116066128,
+      "Week6": 0.7672818532451973,
+      "Week7": 0.9692752893772895,
+      "Week9": 0.925130695970696,
+      "Week10": 0.9087301228978584,
+      "Week11": 0.6215175682629988,
+      "Week12": 0.8148332762741928,
+      "Week13": 0.5584068124420598
+    }
+  },
+  {
+    "School": "Bowling Green",
+    "Mascot": "Falcons",
+    "Conference": "MAC",
+    "S-Val": 0.6149973879589709,
+    "Talent_Mod": 0.7622,
+    "S-Val-History": {
+      "Week1": 0.6131944148833826,
+      "Week2": 0.4804106776785951,
+      "Week3": 0.6591075914484177,
+      "Week4": 0.5756256161901481,
+      "Week5": 0.4611233701070502,
+      "Week6": 0.6956073564954317,
+      "Week7": 0.6921837337242057,
+      "Week8": 0.43589701516184065,
+      "Week10": 0.6337406780998657,
+      "Week11": 0.8741307545787547,
+      "Week12": 0.8043484798534799,
+      "Week13": 0.4545989672864788
+    }
+  },
+  {
+    "School": "Buffalo",
+    "Mascot": "Bulls",
+    "Conference": "MAC",
+    "S-Val": 0.7997065607032587,
+    "Talent_Mod": 0.7501,
+    "S-Val-History": {
+      "Week1": 0.9153011721611722,
+      "Week2": 0.8520776801883663,
+      "Week3": 0.7119306259649809,
+      "Week4": 0.9839993333333334,
+      "Week5": 0.46164802976766767,
+      "Week6": 0.8945105541019646,
+      "Week7": 0.8601575641025642,
+      "Week8": 0.9258386923076923,
+      "Week10": 0.8294456617792174,
+      "Week11": 0.9545776666666668,
+      "Week12": 0.4078007158542864,
+      "Week13": 1.0,
+      "Week14": 0.7804805754327698,
+      "Week20": 0.6181235781849402
+    }
+  },
+  {
+    "School": "BYU",
+    "Mascot": "Cougars",
+    "Conference": "Independent",
+    "S-Val": 0.806717280132266,
+    "Talent_Mod": 1.1498,
+    "S-Val-History": {
+      "Week1": 0.8636963821178715,
+      "Week2": 0.7530479260603116,
+      "Week3": 0.8413090030820518,
+      "Week4": 0.8223665934065935,
+      "Week5": 0.5464979037007482,
+      "Week6": 0.5090820044350027,
+      "Week7": 0.9901903333333334,
+      "Week9": 0.6891728791208792,
+      "Week10": 0.771573625129605,
+      "Week11": 0.9392005054945056,
+      "Week12": 0.995858,
+      "Week13": 0.776498485838556,
+      "Week20": 0.9888310000000001
+    }
+  },
+  {
+    "School": "California",
+    "Mascot": "Golden Bears",
+    "Conference": "Pac-12",
+    "S-Val": 0.7811598065298675,
+    "Talent_Mod": 1.2112,
+    "S-Val-History": {
+      "Week1": 0.8543224175824176,
+      "Week2": 0.8240422783882785,
+      "Week3": 0.7953698129344282,
+      "Week5": 0.633628825461959,
+      "Week6": 0.7845470967049949,
+      "Week7": 0.5989554963203534,
+      "Week8": 1.0,
+      "Week9": 0.8104456410256411,
+      "Week10": 0.6953896507517348,
+      "Week11": 0.798254065934066,
+      "Week13": 0.8676919376911505,
+      "Week14": 0.7548937492727397,
+      "Week20": 0.7375365128205128
+    }
+  },
+  {
+    "School": "UCLA",
+    "Mascot": "Bruins",
+    "Conference": "Pac-12",
+    "S-Val": 0.7239164158405419,
+    "Talent_Mod": 1.5327,
+    "S-Val-History": {
+      "Week1": 0.7220764347789408,
+      "Week2": 0.7139824623578219,
+      "Week3": 0.5268422997166486,
+      "Week5": 0.5691879485667667,
+      "Week6": 0.7775492988340282,
+      "Week7": 0.9352942124542125,
+      "Week8": 0.7987406513115367,
+      "Week9": 0.5064818233554955,
+      "Week10": 0.68719990558493,
+      "Week11": 0.7678973562566467,
+      "Week12": 0.879129074114416,
+      "Week13": 0.802615522755058
+    }
+  },
+  {
+    "School": "UCF",
+    "Mascot": "Knights",
+    "Conference": "AAC",
+    "S-Val": 0.8860362071069777,
+    "Talent_Mod": 1.1548,
+    "S-Val-History": {
+      "Week1": 0.8751111754379729,
+      "Week2": 0.8685714285714287,
+      "Week4": 0.8843387541785959,
+      "Week5": 1.0,
+      "Week6": 0.9914700952380954,
+      "Week7": 0.8038281478601892,
+      "Week8": 0.9649108424908426,
+      "Week10": 0.8172078099072351,
+      "Week11": 0.8424023876250847,
+      "Week12": 0.9840046153846154,
+      "Week13": 1.0,
+      "Week14": 0.7659669305064786,
+      "Week20": 0.7206585051901726
+    }
+  },
+  {
+    "School": "Central Michigan",
+    "Mascot": "Chippewas",
+    "Conference": "MAC",
+    "S-Val": 0.6162615454912603,
+    "Talent_Mod": 0.8404,
+    "S-Val-History": {
+      "Week1": 0.71511723244349,
+      "Week2": 0.4807786842647454,
+      "Week3": 0.6824909275427913,
+      "Week4": 0.6429731135531136,
+      "Week5": 0.6621072129881895,
+      "Week6": 0.5677373755170594,
+      "Week7": 0.7657113062203801,
+      "Week8": 0.4795571630326809,
+      "Week9": 0.7113418864468866,
+      "Week11": 0.5972995657879396,
+      "Week13": 0.47376253260658574
+    }
+  },
+  {
+    "School": "Charlotte",
+    "Mascot": "49ers",
+    "Conference": "C-USA",
+    "S-Val": 0.6918128077013006,
+    "Talent_Mod": 0.6319,
+    "S-Val-History": {
+      "Week1": 0.8590000000000001,
+      "Week2": 0.32393405743261167,
+      "Week3": 0.7011520375340661,
+      "Week4": 0.6357792318089879,
+      "Week5": 0.533095660554401,
+      "Week7": 0.9910196666666667,
+      "Week8": 0.7405974505494506,
+      "Week9": 0.761285416536871,
+      "Week10": 0.7427094029304029,
+      "Week11": 0.6208586384102976,
+      "Week12": 0.7005093222905531
+    }
+  },
+  {
+    "School": "Cincinnati",
+    "Mascot": "Bearcats",
+    "Conference": "AAC",
+    "S-Val": 0.857493213078904,
+    "Talent_Mod": 1.1049,
+    "S-Val-History": {
+      "Week1": 0.874600879120879,
+      "Week3": 0.8685714285714287,
+      "Week4": 0.7792501754114228,
+      "Week5": 0.9928040000000001,
+      "Week6": 0.9091354615384617,
+      "Week8": 0.7212764548018957,
+      "Week9": 0.791612293040293,
+      "Week10": 1.0,
+      "Week11": 0.9052336306840693,
+      "Week12": 0.5764574477629291,
+      "Week13": 1.0,
+      "Week20": 0.8709767860154682
+    }
+  },
+  {
+    "School": "Clemson",
+    "Mascot": "Tigers",
+    "Conference": "ACC",
+    "S-Val": 0.9502661141068544,
+    "Talent_Mod": 1.8149,
+    "S-Val-History": {
+      "Week2": 0.888964489948576,
+      "Week3": 0.8433333333333334,
+      "Week4": 1.0,
+      "Week5": 0.8741096483516484,
+      "Week6": 1.0,
+      "Week8": 0.979761098901099,
+      "Week9": 1.0,
+      "Week10": 1.0,
+      "Week11": 0.9093682454212455,
+      "Week12": 0.9709052014652015,
+      "Week13": 0.8698438208174517,
+      "Week14": 1.0,
+      "Week20": 0.982247032967033,
+      "Week21": 0.9851927262903717
+    }
+  },
+  {
+    "School": "Coastal Carolina",
+    "Mascot": "Chanticleers",
+    "Conference": "Sun Belt",
+    "S-Val": 0.6532756372722405,
+    "Talent_Mod": 0.5775,
+    "S-Val-History": {
+      "Week1": 0.5324679103478476,
+      "Week2": 0.8115637716154461,
+      "Week3": 0.8529712191972794,
+      "Week4": 0.7777373022903207,
+      "Week5": 0.5342785876019278,
+      "Week7": 0.5273099033085655,
+      "Week8": 0.9066642417582418,
+      "Week9": 0.7500116394166816,
+      "Week10": 0.5640660569153222,
+      "Week11": 0.4872062649041251,
+      "Week12": 0.4796637218927619,
+      "Week13": 0.615367028018365
+    }
+  },
+  {
+    "School": "Colorado",
+    "Mascot": "Buffaloes",
+    "Conference": "Pac-12",
+    "S-Val": 0.7806741868606704,
+    "Talent_Mod": 1.1697,
+    "S-Val-History": {
+      "Week1": 0.9834556666666667,
+      "Week2": 0.7816530614330557,
+      "Week3": 0.912,
+      "Week5": 1.0,
+      "Week6": 0.8970062509232863,
+      "Week7": 0.789380159812719,
+      "Week8": 0.7339434363479023,
+      "Week9": 0.8596531944077355,
+      "Week10": 0.6643105062172858,
+      "Week11": 0.5504034660885117,
+      "Week12": 0.49611553339791636,
+      "Week13": 0.7001689670329669
+    }
+  },
+  {
+    "School": "Colorado State",
+    "Mascot": "Rams",
+    "Conference": "Mountain West",
+    "S-Val": 0.6442520107069495,
+    "Talent_Mod": 0.9753,
+    "S-Val-History": {
+      "Week1": 0.575374386049465,
+      "Week2": 0.8208692734014331,
+      "Week3": 0.5618183963050698,
+      "Week4": 0.45819173905777344,
+      "Week6": 0.9174012087912089,
+      "Week7": 0.828464358974359,
+      "Week9": 0.5169171164730608,
+      "Week11": 0.44953126633348195,
+      "Week12": 0.7152348511556685,
+      "Week13": 0.5987175105279738
+    }
+  },
+  {
+    "School": "Connecticut",
+    "Mascot": "Huskies",
+    "Conference": "AAC",
+    "S-Val": 0.5220386434844637,
+    "Talent_Mod": 0.7908,
+    "S-Val-History": {
+      "Week1": 0.5239558641758544,
+      "Week2": 0.3685895979388757,
+      "Week3": 0.6147434263716707,
+      "Week4": 0.5398243058331056,
+      "Week5": 0.44615602597007525,
+      "Week6": 0.39937716155043523,
+      "Week8": 0.7280893817978532,
+      "Week9": 0.6743142567295467,
+      "Week10": 0.5045519812215499,
+      "Week11": 0.6672325467468563,
+      "Week12": 0.43205286807773446,
+      "Week13": 0.36557630540000724
+    }
+  },
+  {
+    "School": "Duke",
+    "Mascot": "Blue Devils",
+    "Conference": "ACC",
+    "S-Val": 0.7711355970508478,
+    "Talent_Mod": 1.2915,
+    "S-Val-History": {
+      "Week1": 0.8796010256410257,
+      "Week2": 0.8713427838827839,
+      "Week3": 0.8842158125114155,
+      "Week4": 0.8801666666666668,
+      "Week5": 0.683736498214882,
+      "Week7": 0.8839797216117217,
+      "Week8": 0.6060021616882385,
+      "Week9": 0.7209619413161392,
+      "Week10": 0.8499483516483517,
+      "Week11": 0.8139947648792176,
+      "Week12": 0.5894967030180127,
+      "Week13": 0.375969330582565,
+      "Week20": 0.9853470000000001
+    }
+  },
+  {
+    "School": "Eastern Michigan",
+    "Mascot": "Eagles",
+    "Conference": "MAC",
+    "S-Val": 0.7674636510006191,
+    "Talent_Mod": 0.6991,
+    "S-Val-History": {
+      "Week1": 0.9085714285714286,
+      "Week2": 0.809877415998756,
+      "Week3": 0.5750603232517776,
+      "Week4": 0.7177688121068829,
+      "Week5": 0.729933010148768,
+      "Week6": 0.7494154582169522,
+      "Week7": 0.8478572344041656,
+      "Week8": 0.9666583399326121,
+      "Week9": 0.4800183358086911,
+      "Week11": 0.8973528754578755,
+      "Week13": 0.8378441235355488,
+      "Week20": 0.6892064545739723
+    }
+  },
+  {
+    "School": "East Carolina",
+    "Mascot": "Pirates",
+    "Conference": "AAC",
+    "S-Val": 0.630686903872203,
+    "Talent_Mod": 0.8828,
+    "S-Val-History": {
+      "Week1": 0.5845598076759906,
+      "Week2": 0.9696487353367691,
+      "Week4": 0.7591835909686215,
+      "Week6": 0.467660775115363,
+      "Week7": 0.5551402425702915,
+      "Week8": 0.5273075744748761,
+      "Week10": 0.6556089079972081,
+      "Week11": 0.6561065977608291,
+      "Week12": 1.0,
+      "Week13": 0.3892183089882706,
+      "Week14": 0.3731214017060138
+    }
+  },
+  {
+    "School": "Florida International",
+    "Mascot": "Panthers",
+    "Conference": "C-USA",
+    "S-Val": 0.7943671099169365,
+    "Talent_Mod": 0.9682,
+    "S-Val-History": {
+      "Week1": 0.6484407877248901,
+      "Week2": 0.737352312440146,
+      "Week3": 0.8493780483023794,
+      "Week4": 0.6466753108176054,
+      "Week5": 0.9313333333333333,
+      "Week7": 0.8230928073777124,
+      "Week8": 0.9832368424908425,
+      "Week9": 0.9234187142857143,
+      "Week10": 0.47706999818286794,
+      "Week11": 1.0,
+      "Week12": 0.7649002403422426,
+      "Week13": 0.7306998675550173,
+      "Week20": 0.8111741660674228
+    }
+  },
+  {
+    "School": "Florida",
+    "Mascot": "Gators",
+    "Conference": "SEC",
+    "S-Val": 0.8671500850405006,
+    "Talent_Mod": 1.6901,
+    "S-Val-History": {
+      "Week1": 0.92,
+      "Week2": 0.662525615154519,
+      "Week3": 1.0,
+      "Week4": 0.968174817725211,
+      "Week5": 0.8554844688644689,
+      "Week6": 0.8986050507784171,
+      "Week7": 0.8862319019875131,
+      "Week9": 0.6617517378881311,
+      "Week10": 0.5826263758324046,
+      "Week11": 0.8995511372958411,
+      "Week12": 0.9380000000000001,
+      "Week13": 1.0,
+      "Week20": 1.0
+    }
+  },
+  {
+    "School": "Florida Atlantic",
+    "Mascot": "Owls",
+    "Conference": "C-USA",
+    "S-Val": 0.7359801534165098,
+    "Talent_Mod": 1.093,
+    "S-Val-History": {
+      "Week1": 0.5257580400123504,
+      "Week2": 0.6902867652708521,
+      "Week3": 0.7709724751422631,
+      "Week4": 0.6398110371556055,
+      "Week5": 0.7543124260903284,
+      "Week6": 0.8473197845966318,
+      "Week8": 0.5185261387566446,
+      "Week9": 0.7019624002012443,
+      "Week10": 1.0,
+      "Week11": 0.9406863333333334,
+      "Week12": 0.7061462870223535
+    }
+  },
+  {
+    "School": "Florida State",
+    "Mascot": "Seminoles",
+    "Conference": "ACC",
+    "S-Val": 0.7147021505488205,
+    "Talent_Mod": 1.8059,
+    "S-Val-History": {
+      "Week1": 0.5994265195199407,
+      "Week2": 0.7666884241542306,
+      "Week3": 0.5239076476216743,
+      "Week4": 0.8884954432234432,
+      "Week5": 0.8713434213849964,
+      "Week6": 0.7859596218314622,
+      "Week8": 0.9799167509157509,
+      "Week9": 0.5351658866645392,
+      "Week10": 0.6445669586708391,
+      "Week11": 0.6043850139160688,
+      "Week12": 0.8286195668151193,
+      "Week13": 0.5479505518677803
+    }
+  },
+  {
+    "School": "Fresno State",
+    "Mascot": "Bulldogs",
+    "Conference": "Mountain West",
+    "S-Val": 0.8898503374499275,
+    "Talent_Mod": 0.9328,
+    "S-Val-History": {
+      "Week1": 0.9466666666666668,
+      "Week2": 0.7391280324745613,
+      "Week3": 0.975123076923077,
+      "Week5": 0.9092451714201544,
+      "Week6": 0.8477504761904762,
+      "Week7": 0.9163534871794873,
+      "Week8": 0.9911778021978022,
+      "Week9": 0.9606763563263884,
+      "Week10": 0.9733590000000001,
+      "Week11": 0.7381189003416169,
+      "Week12": 0.8761192197802198,
+      "Week13": 0.8526666666666667,
+      "Week14": 0.7674314945054946,
+      "Week20": 0.9640883736263737
+    }
+  },
+  {
+    "School": "Georgia",
+    "Mascot": "Bulldogs",
+    "Conference": "SEC",
+    "S-Val": 0.9171358780954819,
+    "Talent_Mod": 1.9588,
+    "S-Val-History": {
+      "Week1": 0.8800000000000001,
+      "Week2": 1.0,
+      "Week3": 1.0,
+      "Week4": 0.9312222062870552,
+      "Week5": 0.9961874725274724,
+      "Week6": 1.0,
+      "Week7": 0.6458851421531153,
+      "Week9": 0.9935938461538463,
+      "Week11": 0.9941676923076923,
+      "Week12": 0.8974033242517924,
+      "Week13": 1.0,
+      "Week14": 0.8203913416946595,
+      "Week20": 0.7639153898656323
+    }
+  },
+  {
+    "School": "Georgia Southern",
+    "Mascot": "Eagles",
+    "Conference": "Sun Belt",
+    "S-Val": 0.8129688051372361,
+    "Talent_Mod": 0.6159,
+    "S-Val-History": {
+      "Week1": 0.8738796336996337,
+      "Week2": 0.8835000000000001,
+      "Week3": 0.571557222472161,
+      "Week5": 0.9102053697753992,
+      "Week7": 0.7918415824175824,
+      "Week8": 0.8386165768355452,
+      "Week9": 1.0,
+      "Week10": 0.5338359016619676,
+      "Week11": 0.6364674496513477,
+      "Week12": 0.9490750000000001,
+      "Week13": 0.9977801465201466,
+      "Week20": 0.7688667786130504
+    }
+  },
+  {
+    "School": "Georgia State",
+    "Mascot": "Panthers",
+    "Conference": "Sun Belt",
+    "S-Val": 0.6089456701499018,
+    "Talent_Mod": 0.8216,
+    "S-Val-History": {
+      "Week1": 0.6798507883276721,
+      "Week2": 0.5466001156177039,
+      "Week3": 0.47999880427820885,
+      "Week4": 0.5315692043435383,
+      "Week5": 0.9948524285714286,
+      "Week6": 0.5624462899032743,
+      "Week8": 0.6079723428057205,
+      "Week9": 0.6925889732386332,
+      "Week10": 0.6200112951408232,
+      "Week11": 0.6323291106666059,
+      "Week12": 0.4767558531177741,
+      "Week13": 0.4823728357874368
+    }
+  },
+  {
+    "School": "Georgia Tech",
+    "Mascot": "Yellow Jackets",
+    "Conference": "ACC",
+    "S-Val": 0.8084075931499526,
+    "Talent_Mod": 1.1856,
+    "S-Val-History": {
+      "Week1": 0.8666666666666667,
+      "Week2": 0.7417890280344198,
+      "Week3": 0.7455648651144233,
+      "Week4": 0.684076856868931,
+      "Week5": 1.0,
+      "Week6": 0.8783233261251835,
+      "Week7": 0.751293861400522,
+      "Week9": 0.9169710792291941,
+      "Week10": 0.9210313067472284,
+      "Week11": 0.9690806794404996,
+      "Week12": 0.7923997477084963,
+      "Week13": 0.6758655698606106,
+      "Week20": 0.5662357237532086
+    }
+  },
+  {
+    "School": "Hawai'i",
+    "Mascot": "Rainbow Warriors",
+    "Conference": "Mountain West",
+    "S-Val": 0.6671795163231883,
+    "Talent_Mod": 0.6989,
+    "S-Val-History": {
+      "Week1": 0.7314818370652745,
+      "Week2": 0.7616581052937541,
+      "Week3": 0.5252170685068445,
+      "Week4": 0.8561666666666667,
+      "Week5": 0.8679199633699635,
+      "Week6": 0.7358008864468866,
+      "Week7": 0.5435346990397587,
+      "Week8": 0.6141886918444384,
+      "Week9": 0.49820468652478817,
+      "Week10": 0.4493514932802218,
+      "Week12": 0.8115302485748249,
+      "Week13": 0.7396107019545627,
+      "Week20": 0.5386686636334623
+    }
+  },
+  {
+    "School": "Houston",
+    "Mascot": "Cougars",
+    "Conference": "AAC",
+    "S-Val": 0.7800826642626155,
+    "Talent_Mod": 1.1728,
+    "S-Val-History": {
+      "Week1": 0.7396228301592057,
+      "Week2": 0.974879347393107,
+      "Week3": 0.7827350512889266,
+      "Week4": 0.916,
+      "Week6": 0.8454102234810281,
+      "Week7": 0.9894541391941392,
+      "Week8": 0.7476218346859957,
+      "Week9": 0.8655548942135326,
+      "Week10": 0.6614003324425938,
+      "Week11": 0.6615221973053425,
+      "Week12": 0.9911449034398743,
+      "Week13": 0.6287948841445676,
+      "Week20": 0.33693399766568766
+    }
+  },
+  {
+    "School": "Illinois",
+    "Mascot": "Fighting Illini",
+    "Conference": "Big Ten",
+    "S-Val": 0.6821496410269775,
+    "Talent_Mod": 1.1433,
+    "S-Val-History": {
+      "Week1": 0.742889953320728,
+      "Week2": 0.8319094505494506,
+      "Week3": 0.7161001216980617,
+      "Week4": 0.624551564664949,
+      "Week6": 0.9837844208288804,
+      "Week7": 0.4315174247012202,
+      "Week8": 0.516605896064149,
+      "Week9": 0.6423977333443613,
+      "Week10": 0.8745725995460815,
+      "Week11": 0.6743635719589024,
+      "Week12": 0.4150652769684423,
+      "Week13": 0.7320376786785029
+    }
+  },
+  {
+    "School": "Indiana",
+    "Mascot": "Hoosiers",
+    "Conference": "Big Ten",
+    "S-Val": 0.7686051358600814,
+    "Talent_Mod": 1.1461,
+    "S-Val-History": {
+      "Week1": 0.8925492541263149,
+      "Week2": 0.8449893369963369,
+      "Week3": 0.8544852014652015,
+      "Week4": 0.6920991692780578,
+      "Week5": 0.8613593333333334,
+      "Week6": 0.7408635721105705,
+      "Week7": 0.5390939145465838,
+      "Week8": 0.8127871383124593,
+      "Week9": 0.7460327137470117,
+      "Week11": 0.8038254382588745,
+      "Week12": 0.7170988618487164,
+      "Week13": 0.7180776962975157
+    }
+  },
+  {
+    "School": "Iowa",
+    "Mascot": "Hawkeyes",
+    "Conference": "Big Ten",
+    "S-Val": 0.8600492446119485,
+    "Talent_Mod": 1.2498,
+    "S-Val-History": {
+      "Week1": 0.9314060805860807,
+      "Week2": 0.8181640293040293,
+      "Week3": 0.8500000000000001,
+      "Week4": 0.7326206023823033,
+      "Week6": 0.9505045266397218,
+      "Week7": 1.0,
+      "Week8": 0.8710212454212454,
+      "Week9": 0.8045970394791173,
+      "Week10": 0.7989580764617332,
+      "Week11": 0.7611438388278389,
+      "Week12": 1.0,
+      "Week13": 0.8679442172700347,
+      "Week20": 0.7942805235832247
+    }
+  },
+  {
+    "School": "Iowa State",
+    "Mascot": "Cyclones",
+    "Conference": "Big 12",
+    "S-Val": 0.8160519408630188,
+    "Talent_Mod": 1.1699,
+    "S-Val-History": {
+      "Week2": 0.6443060146520148,
+      "Week3": 0.7692347522338715,
+      "Week4": 0.8165568315018316,
+      "Week5": 0.7847677216117217,
+      "Week6": 0.8591007433566247,
+      "Week7": 0.9873800915750917,
+      "Week9": 0.9915291575091576,
+      "Week11": 0.9265904761904762,
+      "Week12": 0.6662887317981261,
+      "Week13": 0.780206458568548,
+      "Week14": 0.7076829304029305,
+      "Week20": 0.8589793809558328
+    }
+  },
+  {
+    "School": "Kansas",
+    "Mascot": "Jayhawks",
+    "Conference": "Big 12",
+    "S-Val": 0.7357256354763564,
+    "Talent_Mod": 1.0507,
+    "S-Val-History": {
+      "Week1": 0.5629556843711189,
+      "Week2": 0.9285197069597071,
+      "Week3": 1.0,
+      "Week4": 0.6007336484479981,
+      "Week5": 0.6335268997048302,
+      "Week6": 0.6659909346530194,
+      "Week8": 0.5795134444976945,
+      "Week9": 0.7855306153832811,
+      "Week11": 0.7257125297968398,
+      "Week12": 0.8058377766174518,
+      "Week13": 0.8046607498079787
+    }
+  },
+  {
+    "School": "Kansas State",
+    "Mascot": "Wildcats",
+    "Conference": "Big 12",
+    "S-Val": 0.7676636998516169,
+    "Talent_Mod": 1.1123,
+    "S-Val-History": {
+      "Week1": 0.6541617821546788,
+      "Week2": 0.5960331519126768,
+      "Week3": 0.9526956666666668,
+      "Week4": 0.6194769766147814,
+      "Week5": 0.782881137537645,
+      "Week6": 0.8157179875122607,
+      "Week7": 0.9499867399267399,
+      "Week9": 0.5247701986305411,
+      "Week10": 0.7854858168498169,
+      "Week11": 0.8461085091575091,
+      "Week12": 0.8964775091575092,
+      "Week13": 0.7881689220985763
+    }
+  },
+  {
+    "School": "Kent State",
+    "Mascot": "Golden Flashes",
+    "Conference": "MAC",
+    "S-Val": 0.6466369110241991,
+    "Talent_Mod": 0.7147,
+    "S-Val-History": {
+      "Week1": 0.697098378542961,
+      "Week2": 0.8640000000000001,
+      "Week3": 0.5120872838223047,
+      "Week4": 0.5958421997812476,
+      "Week5": 0.5314083000707626,
+      "Week6": 0.7600043533677511,
+      "Week7": 0.4739079550871637,
+      "Week8": 0.7570014883454826,
+      "Week10": 0.8327565657895064,
+      "Week11": 0.4643607440064502,
+      "Week12": 0.6258776970095339,
+      "Week13": 0.6452979664672237
+    }
+  },
+  {
+    "School": "Kentucky",
+    "Mascot": "Wildcats",
+    "Conference": "SEC",
+    "S-Val": 0.8533380237916394,
+    "Talent_Mod": 1.3619,
+    "S-Val-History": {
+      "Week1": 0.8574295091575093,
+      "Week2": 0.9859139926739926,
+      "Week3": 0.9085714285714286,
+      "Week4": 0.8987483516483517,
+      "Week5": 0.8923553113553113,
+      "Week6": 0.748551503934662,
+      "Week8": 0.7928712637362638,
+      "Week9": 0.7983366190476191,
+      "Week11": 0.6287454458623618,
+      "Week12": 0.876110828124954,
+      "Week13": 1.0,
+      "Week20": 0.8524220313872182
+    }
+  },
+  {
+    "School": "LSU",
+    "Mascot": "Tigers",
+    "Conference": "SEC",
+    "S-Val": 0.872158277707515,
+    "Talent_Mod": 1.8082,
+    "S-Val-History": {
+      "Week1": 0.9137856410256411,
+      "Week2": 0.8435648351648352,
+      "Week3": 0.866667088744101,
+      "Week4": 0.9393872309634497,
+      "Week5": 1.0,
+      "Week6": 0.742695687211434,
+      "Week7": 0.9827249084249083,
+      "Week8": 0.821778021978022,
+      "Week10": 0.5538481023593604,
+      "Week11": 0.9184205860805861,
+      "Week12": 0.9657526666666667,
+      "Week13": 0.8336897939596419,
+      "Week20": 0.9557430476190477
+    }
+  },
+  {
+    "School": "Louisiana Tech",
+    "Mascot": "Bulldogs",
+    "Conference": "C-USA",
+    "S-Val": 0.7756234685628398,
+    "Talent_Mod": 0.9702,
+    "S-Val-History": {
+      "Week1": 0.8745202166023823,
+      "Week2": 0.87,
+      "Week4": 0.7264624182029508,
+      "Week5": 0.7561398874510195,
+      "Week6": 0.534564868260926,
+      "Week7": 0.903679989010989,
+      "Week8": 0.853916929106667,
+      "Week9": 0.8454075491175491,
+      "Week10": 0.47997268017542755,
+      "Week11": 0.9154883443223445,
+      "Week12": 0.7882769597069598,
+      "Week13": 0.6470141467956008,
+      "Week20": 0.8876611025641026
+    }
+  },
+  {
+    "School": "Louisiana",
+    "Mascot": "Ragin' Cajuns",
+    "Conference": "Sun Belt",
+    "S-Val": 0.7222519456603779,
+    "Talent_Mod": 0.7654,
+    "S-Val-History": {
+      "Week1": 0.8566666666666667,
+      "Week3": 0.5162224392390676,
+      "Week4": 0.7088720223629716,
+      "Week5": 0.5731562686742875,
+      "Week6": 0.8168354971386345,
+      "Week7": 0.8575897282105346,
+      "Week8": 0.63493740409983,
+      "Week9": 0.7484548818190455,
+      "Week10": 0.5690449707797353,
+      "Week11": 0.9391827103174497,
+      "Week12": 0.813364664522677,
+      "Week13": 0.8216737326233174,
+      "Week14": 0.6060048599932504,
+      "Week20": 0.649521392797823
+    }
+  },
+  {
+    "School": "Louisiana Monroe",
+    "Mascot": "Warhawks",
+    "Conference": "Sun Belt",
+    "S-Val": 0.69066892665185,
+    "Talent_Mod": 0.6637,
+    "S-Val-History": {
+      "Week1": 0.6755134586748702,
+      "Week2": 0.7161143589743589,
+      "Week3": 0.5603644068108274,
+      "Week4": 0.6499043962923907,
+      "Week5": 0.4265160955205179,
+      "Week6": 0.5309769662760077,
+      "Week7": 0.894660641645579,
+      "Week8": 0.7269164542124542,
+      "Week10": 0.9049003333333334,
+      "Week11": 1.0,
+      "Week12": 0.5494169827144616,
+      "Week13": 0.652743025367398
+    }
+  },
+  {
+    "School": "Louisville",
+    "Mascot": "Cardinals",
+    "Conference": "ACC",
+    "S-Val": 0.6073386153260748,
+    "Talent_Mod": 1.2846,
+    "S-Val-History": {
+      "Week1": 0.5638422521110205,
+      "Week3": 0.6371007734715814,
+      "Week4": 0.49856329546443123,
+      "Week5": 0.8349457610346681,
+      "Week6": 0.5981098493742298,
+      "Week7": 0.6026642648336606,
+      "Week9": 0.6442431587614474,
+      "Week10": 0.5686118213795215,
+      "Week11": 0.5896295867837775,
+      "Week12": 0.5881065592718545,
+      "Week13": 0.55490744610063
+    }
+  },
+  {
+    "School": "Marshall",
+    "Mascot": "Thundering Herd",
+    "Conference": "C-USA",
+    "S-Val": 0.7952832502237115,
+    "Talent_Mod": 0.9176,
+    "S-Val-History": {
+      "Week1": 0.8055527805525893,
+      "Week2": 0.7941804395604396,
+      "Week4": 0.6027540453701165,
+      "Week5": 0.7632412051282053,
+      "Week6": 0.6370493982057249,
+      "Week7": 0.9600308495881393,
+      "Week8": 0.9106531135531135,
+      "Week10": 0.6864815018315019,
+      "Week11": 0.8263184285714286,
+      "Week12": 0.9387037252747253,
+      "Week13": 0.765017204260807,
+      "Week14": 0.6687390913245854,
+      "Week20": 0.979960469686872
+    }
+  },
+  {
+    "School": "Maryland",
+    "Mascot": "Terrapins",
+    "Conference": "Big Ten",
+    "S-Val": 0.7516927356506128,
+    "Talent_Mod": 1.475,
+    "S-Val-History": {
+      "Week1": 0.8636471211767165,
+      "Week2": 0.8642857142857143,
+      "Week3": 0.5226127120702352,
+      "Week4": 1.0,
+      "Week6": 0.6475747265414061,
+      "Week7": 0.9551615384615386,
+      "Week8": 0.567699675113696,
+      "Week9": 0.8606954702643386,
+      "Week10": 0.5641912014355106,
+      "Week11": 0.7849877538044656,
+      "Week12": 0.8058311124600492,
+      "Week13": 0.5836258021936837
+    }
+  },
+  {
+    "School": "UMass",
+    "Mascot": "Minutemen",
+    "Conference": "Independent",
+    "S-Val": 0.6825988257651591,
+    "Talent_Mod": 0.7902,
+    "S-Val-History": {
+      "Week1": 0.915,
+      "Week2": 0.3856144445026651,
+      "Week3": 0.5627771344419948,
+      "Week4": 0.876679530365448,
+      "Week5": 0.6060172359620601,
+      "Week6": 0.6309060402080136,
+      "Week8": 0.5814138282966069,
+      "Week9": 0.8808150622710623,
+      "Week10": 0.6994489905923673,
+      "Week11": 0.6922409419502145,
+      "Week12": 0.6776738748263171
+    }
+  },
+  {
+    "School": "Memphis",
+    "Mascot": "Tigers",
+    "Conference": "AAC",
+    "S-Val": 0.8097246388960954,
+    "Talent_Mod": 0.9755,
+    "S-Val-History": {
+      "Week1": 0.9085714285714286,
+      "Week2": 0.6250300411320087,
+      "Week3": 0.9642555207689141,
+      "Week4": 0.8603141033225167,
+      "Week5": 0.5548009668235934,
+      "Week6": 1.0,
+      "Week7": 0.7691739173468934,
+      "Week8": 0.5554119304716427,
+      "Week10": 0.863395161947129,
+      "Week11": 0.9565733333333334,
+      "Week12": 0.9156174212454212,
+      "Week13": 0.9147901645240004,
+      "Week14": 0.7307304382619055,
+      "Week20": 0.7174805167965468
+    }
+  },
+  {
+    "School": "Miami",
+    "Mascot": "Hurricanes",
+    "Conference": "ACC",
+    "S-Val": 0.8149600286771149,
+    "Talent_Mod": 1.5315,
+    "S-Val-History": {
+      "Week1": 0.7337406126502488,
+      "Week2": 0.9133333333333333,
+      "Week3": 0.9545229329047773,
+      "Week4": 0.9187573553113554,
+      "Week5": 1.0,
+      "Week6": 0.8855768498168497,
+      "Week7": 0.7809672124542124,
+      "Week9": 0.6046035410100242,
+      "Week10": 0.7863495054945056,
+      "Week11": 0.671524228956137,
+      "Week12": 0.9500810256410257,
+      "Week13": 0.9029648351648352,
+      "Week20": 0.492058940065186
+    }
+  },
+  {
+    "School": "Miami (OH)",
+    "Mascot": "RedHawks",
+    "Conference": "MAC",
+    "S-Val": 0.7957077368012039,
+    "Talent_Mod": 0.8559,
+    "S-Val-History": {
+      "Week1": 0.6867545524476477,
+      "Week3": 0.5890888478930931,
+      "Week4": 0.9454169322606978,
+      "Week5": 0.7385442979461249,
+      "Week6": 0.9787504578754579,
+      "Week7": 0.942292391941392,
+      "Week8": 0.7072436615216628,
+      "Week10": 0.6818877611235505,
+      "Week11": 0.7348730720599222,
+      "Week13": 0.9522253929424891
+    }
+  },
+  {
+    "School": "Michigan",
+    "Mascot": "Wolverines",
+    "Conference": "Big Ten",
+    "S-Val": 0.911240215409885,
+    "Talent_Mod": 1.7522,
+    "S-Val-History": {
+      "Week1": 0.7979073943442971,
+      "Week2": 1.0,
+      "Week3": 0.9732882342099388,
+      "Week4": 1.0,
+      "Week5": 0.8823505787545789,
+      "Week6": 1.0,
+      "Week7": 0.9997030036630037,
+      "Week8": 0.9047192783882785,
+      "Week10": 1.0,
+      "Week11": 1.0,
+      "Week12": 0.9592060836259177,
+      "Week13": 0.7372624862258864,
+      "Week20": 0.5916857411166045
+    }
+  },
+  {
+    "School": "Michigan State",
+    "Mascot": "Spartans",
+    "Conference": "Big Ten",
+    "S-Val": 0.8143571652266268,
+    "Talent_Mod": 1.3387,
+    "S-Val-History": {
+      "Week1": 0.800524761904762,
+      "Week2": 0.8091779706959707,
+      "Week4": 0.8976801794871796,
+      "Week5": 0.9006183003663004,
+      "Week6": 0.8518436923076924,
+      "Week7": 0.8604777923429361,
+      "Week8": 0.6418626031751475,
+      "Week9": 0.8868556923076923,
+      "Week10": 0.8981585347985348,
+      "Week11": 0.7047451626844731,
+      "Week12": 0.7534524505494505,
+      "Week13": 0.8052429230769231,
+      "Week20": 0.7760030842490843
+    }
+  },
+  {
+    "School": "Middle Tennessee",
+    "Mascot": "Blue Raiders",
+    "Conference": "C-USA",
+    "S-Val": 0.761117283211914,
+    "Talent_Mod": 0.8416,
+    "S-Val-History": {
+      "Week1": 0.5168275936458591,
+      "Week2": 0.8143334930333329,
+      "Week3": 0.5452586818431414,
+      "Week5": 0.7721026090350342,
+      "Week6": 0.871809335434429,
+      "Week7": 0.7373555047845789,
+      "Week8": 0.7104353516483517,
+      "Week9": 0.9516714062719915,
+      "Week10": 0.9239541721611723,
+      "Week11": 0.9281113775827432,
+      "Week12": 0.7039140087014044,
+      "Week13": 0.9369132600732601,
+      "Week14": 0.7131912791517867,
+      "Week20": 0.5297638915997104
+    }
+  },
+  {
+    "School": "Minnesota",
+    "Mascot": "Golden Gophers",
+    "Conference": "Big Ten",
+    "S-Val": 0.7999137141420405,
+    "Talent_Mod": 1.1967,
+    "S-Val-History": {
+      "Week1": 0.8666666666666667,
+      "Week2": 0.8497975531135531,
+      "Week3": 0.88472673992674,
+      "Week4": 0.5033469405225492,
+      "Week6": 0.6816915950739296,
+      "Week7": 0.7709244485740991,
+      "Week8": 0.6579972094953352,
+      "Week9": 0.8634431208468905,
+      "Week10": 0.6689901940863205,
+      "Week11": 1.0,
+      "Week12": 0.6935291268957543,
+      "Week13": 0.9621736263736265,
+      "Week20": 0.9955910622710622
+    }
+  },
+  {
+    "School": "Ole Miss",
+    "Mascot": "Rebels",
+    "Conference": "SEC",
+    "S-Val": 0.757812457942645,
+    "Talent_Mod": 1.4914,
+    "S-Val-History": {
+      "Week1": 0.8873722136953894,
+      "Week2": 0.7350822554510242,
+      "Week3": 0.5451665805095571,
+      "Week4": 0.976411,
+      "Week5": 0.643231981394207,
+      "Week6": 0.9425010776472715,
+      "Week7": 0.8443751403486935,
+      "Week8": 0.6982656090457335,
+      "Week10": 0.8117249600475909,
+      "Week11": 0.7576223467552643,
+      "Week12": 0.7712548616482469,
+      "Week13": 0.48074146876876034
+    }
+  },
+  {
+    "School": "Mississippi State",
+    "Mascot": "Bulldogs",
+    "Conference": "SEC",
+    "S-Val": 0.8605539648170678,
+    "Talent_Mod": 1.4832,
+    "S-Val-History": {
+      "Week1": 0.9085714285714286,
+      "Week2": 0.9876185604395605,
+      "Week3": 0.8800000000000001,
+      "Week4": 0.6149578986097235,
+      "Week5": 0.7577214652014652,
+      "Week6": 0.9138444688644689,
+      "Week8": 0.713114717948718,
+      "Week9": 0.9576033699633699,
+      "Week10": 1.0,
+      "Week11": 0.6988030792081366,
+      "Week12": 1.0,
+      "Week13": 0.9759406593406594,
+      "Week20": 0.7790258944743488
+    }
+  },
+  {
+    "School": "Missouri",
+    "Mascot": "Tigers",
+    "Conference": "SEC",
+    "S-Val": 0.8537237578897806,
+    "Talent_Mod": 1.2093,
+    "S-Val-History": {
+      "Week1": 0.915,
+      "Week2": 0.8720000000000001,
+      "Week3": 0.8189290645552104,
+      "Week4": 0.7305185805423163,
+      "Week6": 0.861598054235968,
+      "Week7": 0.5600526646663336,
+      "Week8": 0.9074685223396746,
+      "Week9": 0.810290663003663,
+      "Week10": 1.0,
+      "Week11": 0.796769134024033,
+      "Week12": 1.0,
+      "Week13": 0.9777679120879121,
+      "Week20": 0.8480142571120382
+    }
+  },
+  {
+    "School": "Navy",
+    "Mascot": "Midshipmen",
+    "Conference": "AAC",
+    "S-Val": 0.6973976827892217,
+    "Talent_Mod": 0.7097,
+    "S-Val-History": {
+      "Week1": 0.6730795702890329,
+      "Week2": 0.8281046103557517,
+      "Week3": 0.8908107093854442,
+      "Week4": 0.7697962372493967,
+      "Week6": 0.3873024527465274,
+      "Week7": 0.6967218220751328,
+      "Week8": 0.7910640395144443,
+      "Week9": 0.6627003689180139,
+      "Week10": 0.4802394049733772,
+      "Week11": 0.6423265449079427,
+      "Week12": 0.8631561703125407,
+      "Week13": 0.8073122642135973,
+      "Week15": 0.5735556813186813
+    }
+  },
+  {
+    "School": "Nebraska",
+    "Mascot": "Cornhuskers",
+    "Conference": "Big Ten",
+    "S-Val": 0.77533389263063,
+    "Talent_Mod": 1.4451,
+    "S-Val-History": {
+      "Week2": 0.8642895381285381,
+      "Week3": 0.6195086123545421,
+      "Week4": 0.4849750370522403,
+      "Week5": 0.6897397148196082,
+      "Week6": 0.6950642078248127,
+      "Week7": 0.9332742914554318,
+      "Week8": 0.898676834972729,
+      "Week9": 0.9380000000000001,
+      "Week10": 0.8131901811899935,
+      "Week11": 0.8705506730514265,
+      "Week12": 0.749043967032967,
+      "Week13": 0.7476936536852697
+    }
+  },
+  {
+    "School": "Nevada",
+    "Mascot": "Wolf Pack",
+    "Conference": "Mountain West",
+    "S-Val": 0.7637992972533764,
+    "Talent_Mod": 0.8786,
+    "S-Val-History": {
+      "Week1": 0.8666666666666667,
+      "Week2": 0.46396721165939264,
+      "Week3": 0.8412694379621329,
+      "Week4": 0.667858219512647,
+      "Week5": 0.7975269047619048,
+      "Week6": 0.6650319853479854,
+      "Week7": 0.7224969552758209,
+      "Week8": 0.8553759858195216,
+      "Week9": 0.751931386117801,
+      "Week11": 0.9834556666666667,
+      "Week12": 0.8407523443223445,
+      "Week13": 0.6928608950528025,
+      "Week20": 0.7801972051282051
+    }
+  },
+  {
+    "School": "UNLV",
+    "Mascot": "Rebels",
+    "Conference": "Mountain West",
+    "S-Val": 0.6649237117350283,
+    "Talent_Mod": 0.8143,
+    "S-Val-History": {
+      "Week1": 0.6973142935075678,
+      "Week2": 0.8341406759197503,
+      "Week3": 0.8590000000000001,
+      "Week4": 0.587715176606432,
+      "Week6": 0.41110093485925336,
+      "Week7": 0.5268349248450056,
+      "Week8": 0.6180706060810783,
+      "Week9": 0.683616129789529,
+      "Week10": 0.4342619017933377,
+      "Week11": 0.8434446564263647,
+      "Week12": 0.6838755131439187,
+      "Week13": 0.799709727848101
+    }
+  },
+  {
+    "School": "New Mexico",
+    "Mascot": "Lobos",
+    "Conference": "Mountain West",
+    "S-Val": 0.6016963347845385,
+    "Talent_Mod": 0.837,
+    "S-Val-History": {
+      "Week2": 0.47364973503272323,
+      "Week3": 0.7855459277817619,
+      "Week5": 0.6268313131291631,
+      "Week6": 0.985859,
+      "Week7": 0.7363925553472768,
+      "Week8": 0.4761543467985262,
+      "Week9": 0.4182025047546943,
+      "Week10": 0.6301958141625613,
+      "Week11": 0.5231354982805337,
+      "Week12": 0.49462793133000216,
+      "Week13": 0.46806505601268206
+    }
+  },
+  {
+    "School": "New Mexico State",
+    "Mascot": "Aggies",
+    "Conference": "Independent",
+    "S-Val": 0.5772527829225939,
+    "Talent_Mod": 0.5066,
+    "S-Val-History": {
+      "Week1": 0.463492186237563,
+      "Week2": 0.303847810815029,
+      "Week3": 0.5934804172457765,
+      "Week4": 0.7708558704332716,
+      "Week6": 0.7341092658108392,
+      "Week7": 0.5273569044065936,
+      "Week8": 0.5300047384403694,
+      "Week9": 0.6250389037659242,
+      "Week10": 0.6818322848294062,
+      "Week12": 0.4861758574864528,
+      "Week13": 0.6335863726773064
+    }
+  },
+  {
+    "School": "North Carolina",
+    "Mascot": "Tar Heels",
+    "Conference": "ACC",
+    "S-Val": 0.7267173039239473,
+    "Talent_Mod": 1.3989,
+    "S-Val-History": {
+      "Week1": 0.7013107252747254,
+      "Week2": 0.5770733061620859,
+      "Week4": 0.8533734445469918,
+      "Week5": 0.5135559061511337,
+      "Week7": 0.861377710036173,
+      "Week8": 0.7709645312465313,
+      "Week9": 0.6946025605346273,
+      "Week10": 0.6773608226350111,
+      "Week11": 0.8033122123731802,
+      "Week12": 0.7780883274928267,
+      "Week13": 0.7628707967101339
+    }
+  },
+  {
+    "School": "NC State",
+    "Mascot": "Wolfpack",
+    "Conference": "ACC",
+    "S-Val": 0.8384549051136374,
+    "Talent_Mod": 1.2789,
+    "S-Val-History": {
+      "Week1": 0.7120621245421246,
+      "Week2": 0.9768080000000001,
+      "Week4": 0.9884915164835164,
+      "Week5": 0.9466863185542178,
+      "Week6": 0.8885084807119159,
+      "Week8": 0.6041710294677174,
+      "Week9": 0.7710195065065963,
+      "Week10": 1.0,
+      "Week11": 0.7532412313960055,
+      "Week12": 0.8513904761904763,
+      "Week13": 0.8588879419631511,
+      "Week14": 0.9947640000000001,
+      "Week20": 0.5538831406615671
+    }
+  },
+  {
+    "School": "North Texas",
+    "Mascot": "Mean Green",
+    "Conference": "C-USA",
+    "S-Val": 0.8253907977498158,
+    "Talent_Mod": 0.7489,
+    "S-Val-History": {
+      "Week1": 1.0,
+      "Week2": 0.9008333333333334,
+      "Week3": 0.9670043223443223,
+      "Week4": 0.9380000000000001,
+      "Week5": 0.7417722364278725,
+      "Week6": 0.7913063315856051,
+      "Week7": 0.951086043956044,
+      "Week8": 0.648403966246418,
+      "Week9": 0.9597526666666667,
+      "Week11": 0.7657222894869644,
+      "Week12": 0.8080405410807769,
+      "Week13": 0.8149769488320939,
+      "Week20": 0.4431816907875089
+    }
+  },
+  {
+    "School": "Northern Illinois",
+    "Mascot": "Huskies",
+    "Conference": "MAC",
+    "S-Val": 0.7440588943646406,
+    "Talent_Mod": 0.8784,
+    "S-Val-History": {
+      "Week1": 0.5353203940099582,
+      "Week2": 0.6754441684981686,
+      "Week3": 0.8346414505494506,
+      "Week4": 0.6961393051653082,
+      "Week5": 0.7335184245754245,
+      "Week6": 0.8204616923076924,
+      "Week7": 0.8227174578754579,
+      "Week9": 0.748144402930403,
+      "Week10": 0.9284385897435897,
+      "Week11": 0.9368054322344324,
+      "Week13": 0.6979325826778688,
+      "Week14": 0.7251550615635364,
+      "Week20": 0.5180466646090377
+    }
+  },
+  {
+    "School": "Northwestern",
+    "Mascot": "Wildcats",
+    "Conference": "Big Ten",
+    "S-Val": 0.7981760341448112,
+    "Talent_Mod": 1.2372,
+    "S-Val-History": {
+      "Week1": 0.8027545348198171,
+      "Week2": 0.7178652206301483,
+      "Week3": 0.6096351615383979,
+      "Week5": 0.741117051915591,
+      "Week6": 0.8322624675434808,
+      "Week7": 0.8115185452271825,
+      "Week8": 0.7572441684981686,
+      "Week9": 0.9132055677655677,
+      "Week10": 0.7350574971458301,
+      "Week11": 0.7884512161172162,
+      "Week12": 0.9099655677655678,
+      "Week13": 0.8904327054943431,
+      "Week14": 0.7628497991988796,
+      "Week20": 0.902104974367167
+    }
+  },
+  {
+    "School": "Notre Dame",
+    "Mascot": "Fighting Irish",
+    "Conference": "Independent",
+    "S-Val": 0.8824333552798187,
+    "Talent_Mod": 1.7227,
+    "S-Val-History": {
+      "Week1": 0.8798925274725276,
+      "Week2": 0.7322288644688645,
+      "Week3": 0.8806092648717188,
+      "Week4": 0.9403495222768057,
+      "Week5": 1.0,
+      "Week6": 0.9406150450056956,
+      "Week7": 0.811636728937729,
+      "Week9": 0.9138661444767993,
+      "Week10": 0.9239115311355313,
+      "Week11": 1.0,
+      "Week12": 0.981387326007326,
+      "Week13": 0.909915715428731,
+      "Week20": 0.5572209485559158
+    }
+  },
+  {
+    "School": "Ohio",
+    "Mascot": "Bobcats",
+    "Conference": "MAC",
+    "S-Val": 0.849355099467524,
+    "Talent_Mod": 0.7034,
+    "S-Val-History": {
+      "Week1": 0.6984883249860827,
+      "Week3": 0.6963375169082126,
+      "Week4": 0.7327447174876246,
+      "Week5": 0.8746192020228555,
+      "Week6": 0.7408317782515556,
+      "Week7": 0.6923393685980324,
+      "Week8": 1.0,
+      "Week9": 1.0,
+      "Week10": 1.0,
+      "Week11": 0.7404081020116354,
+      "Week12": 1.0,
+      "Week13": 0.938855,
+      "Week20": 0.9269922828118125
+    }
+  },
+  {
+    "School": "Ohio State",
+    "Mascot": "Buckeyes",
+    "Conference": "Big Ten",
+    "S-Val": 0.8656580448807316,
+    "Talent_Mod": 2,
+    "S-Val-History": {
+      "Week1": 0.8860333031512471,
+      "Week2": 1.0,
+      "Week3": 0.88149125580455,
+      "Week4": 0.9843036666666668,
+      "Week5": 0.7941730829720173,
+      "Week6": 0.9183876913428932,
+      "Week7": 0.9570773626373628,
+      "Week8": 0.5544751970502483,
+      "Week10": 0.8434316223955298,
+      "Week11": 0.8895802197802198,
+      "Week12": 0.7532347790145038,
+      "Week13": 0.8823055696575288,
+      "Week14": 0.9257465720607483,
+      "Week20": 0.8489723057967287
+    }
+  },
+  {
+    "School": "Oklahoma",
+    "Mascot": "Sooners",
+    "Conference": "Big 12",
+    "S-Val": 0.8790398482752338,
+    "Talent_Mod": 1.7145,
+    "S-Val-History": {
+      "Week1": 1.0,
+      "Week2": 0.9671101448831596,
+      "Week3": 0.8962238549497588,
+      "Week4": 0.8079351522928445,
+      "Week5": 0.9429256122511702,
+      "Week6": 0.8135001751627616,
+      "Week8": 0.9623726499307894,
+      "Week9": 1.0,
+      "Week10": 0.778981104973634,
+      "Week11": 0.8356899346136446,
+      "Week12": 0.7969250582662063,
+      "Week13": 0.7813694790598843,
+      "Week14": 0.9285882117154332,
+      "Week20": 0.7949364977539886
+    }
+  },
+  {
+    "School": "Oklahoma State",
+    "Mascot": "Cowboys",
+    "Conference": "Big 12",
+    "S-Val": 0.7962204410118461,
+    "Talent_Mod": 1.3106,
+    "S-Val-History": {
+      "Week1": 0.8685714285714287,
+      "Week2": 0.9424763333333335,
+      "Week3": 1.0,
+      "Week4": 0.5733824443827921,
+      "Week5": 0.9037875187350214,
+      "Week6": 0.7500081651958681,
+      "Week7": 0.5724292444223006,
+      "Week9": 0.8990507737329763,
+      "Week10": 0.8319365903071718,
+      "Week11": 0.7894963981127663,
+      "Week12": 0.7949296115563916,
+      "Week13": 0.6529981876981983,
+      "Week20": 0.7717990371057515
+    }
+  },
+  {
+    "School": "Old Dominion",
+    "Mascot": "Monarchs",
+    "Conference": "C-USA",
+    "S-Val": 0.6513801841765239,
+    "Talent_Mod": 0.677,
+    "S-Val-History": {
+      "Week1": 0.30947050671231013,
+      "Week2": 0.7218191888739598,
+      "Week3": 0.6037311076554869,
+      "Week4": 0.8411607876943825,
+      "Week6": 0.6303504155836963,
+      "Week7": 0.5469547457642172,
+      "Week8": 0.730512018489291,
+      "Week9": 0.5137402205841356,
+      "Week11": 0.7617289785919881,
+      "Week12": 0.9476666666666667,
+      "Week13": 0.5580473893256288
+    }
+  },
+  {
+    "School": "Oregon",
+    "Mascot": "Ducks",
+    "Conference": "Pac-12",
+    "S-Val": 0.804495761011641,
+    "Talent_Mod": 1.4138,
+    "S-Val-History": {
+      "Week1": 0.8324433164653278,
+      "Week2": 0.8675,
+      "Week3": 0.7818257875457875,
+      "Week4": 0.8223588021622461,
+      "Week5": 0.9181245308399133,
+      "Week7": 0.8086775192127242,
+      "Week8": 0.6922196399520484,
+      "Week9": 0.5167156653707857,
+      "Week10": 0.934426355890351,
+      "Week11": 0.7073724100133981,
+      "Week12": 0.8267777887756742,
+      "Week13": 1.0,
+      "Week20": 0.750003076923077
+    }
+  },
+  {
+    "School": "Oregon State",
+    "Mascot": "Beavers",
+    "Conference": "Pac-12",
+    "S-Val": 0.6439345645930937,
+    "Talent_Mod": 1.0878,
+    "S-Val-History": {
+      "Week1": 0.6974731676357685,
+      "Week2": 0.755294684073719,
+      "Week3": 0.7409121882361578,
+      "Week4": 0.5690406088757628,
+      "Week5": 0.6597007010629015,
+      "Week6": 0.7044024337906297,
+      "Week8": 0.44000927054653294,
+      "Week9": 0.7543435384819285,
+      "Week10": 0.6872729837033107,
+      "Week11": 0.5980663727935337,
+      "Week12": 0.6332830391641351,
+      "Week13": 0.4874157867527444
+    }
+  },
+  {
+    "School": "Penn State",
+    "Mascot": "Nittany Lions",
+    "Conference": "Big Ten",
+    "S-Val": 0.8376845401099621,
+    "Talent_Mod": 1.6951,
+    "S-Val-History": {
+      "Week1": 0.7319835179020047,
+      "Week2": 1.0,
+      "Week3": 0.8533333333333334,
+      "Week4": 0.9312134222096411,
+      "Week5": 0.8915454656959734,
+      "Week7": 0.8101714594442365,
+      "Week8": 0.8209012346355871,
+      "Week9": 0.8530950898739118,
+      "Week10": 0.5147243911757207,
+      "Week11": 0.8530749523809524,
+      "Week12": 0.8494397802197802,
+      "Week13": 1.0,
+      "Week20": 0.7804163745583648
+    }
+  },
+  {
+    "School": "Pittsburgh",
+    "Mascot": "Panthers",
+    "Conference": "ACC",
+    "S-Val": 0.7874419790994882,
+    "Talent_Mod": 1.2963,
+    "S-Val-History": {
+      "Week1": 0.8281504029304031,
+      "Week2": 0.566537924576668,
+      "Week3": 0.8925679191575209,
+      "Week4": 0.7815821832707522,
+      "Week5": 0.5023392017033317,
+      "Week6": 0.8788739145943356,
+      "Week7": 0.8154533333333334,
+      "Week9": 0.8205586696673501,
+      "Week10": 0.888051901098901,
+      "Week11": 0.9422040168598487,
+      "Week12": 0.9913014652014653,
+      "Week13": 0.7376953663003664,
+      "Week14": 0.5372786028377513,
+      "Week20": 0.841592805860806
+    }
+  },
+  {
+    "School": "Purdue",
+    "Mascot": "Boilermakers",
+    "Conference": "Big Ten",
+    "S-Val": 0.7789652603638669,
+    "Talent_Mod": 1.0576,
+    "S-Val-History": {
+      "Week1": 0.7647200031802321,
+      "Week2": 0.6919522002389157,
+      "Week3": 0.773718013055491,
+      "Week4": 0.9414328205128206,
+      "Week5": 0.877338116148495,
+      "Week7": 1.0,
+      "Week8": 0.9701311091793889,
+      "Week9": 0.7052653046611143,
+      "Week10": 0.8078804963549616,
+      "Week11": 0.4920581166648922,
+      "Week12": 0.7474300623631789,
+      "Week13": 0.8386964153596386,
+      "Week20": 0.5159257270111429
+    }
+  },
+  {
+    "School": "Rice",
+    "Mascot": "Owls",
+    "Conference": "C-USA",
+    "S-Val": 0.602707705031362,
+    "Talent_Mod": 0.7622,
+    "S-Val-History": {
+      "Week1": 0.684050884904338,
+      "Week2": 0.533731586937229,
+      "Week4": 0.5247318428400196,
+      "Week5": 0.5833315664356216,
+      "Week6": 0.5529870952380953,
+      "Week7": 0.41479342396409297,
+      "Week8": 0.5240997184509056,
+      "Week9": 0.560003740186899,
+      "Week10": 0.6487077287600725,
+      "Week11": 0.6740515043829328,
+      "Week12": 0.6313260422688101,
+      "Week13": 0.900677326007326
+    }
+  },
+  {
+    "School": "Rutgers",
+    "Mascot": "Scarlet Knights",
+    "Conference": "Big Ten",
+    "S-Val": 0.6204001749098959,
+    "Talent_Mod": 1.1282,
+    "S-Val-History": {
+      "Week1": 0.8135843956043957,
+      "Week2": 0.4639406525249137,
+      "Week3": 0.4006153736986054,
+      "Week4": 0.4985590892937933,
+      "Week5": 0.7230751156685399,
+      "Week6": 0.5811154546919457,
+      "Week7": 0.49053569255055185,
+      "Week8": 0.7712932893772894,
+      "Week10": 0.6791820641088174,
+      "Week11": 0.5536517333046598,
+      "Week12": 0.7312788241758242,
+      "Week13": 0.737970413919414
+    }
+  },
+  {
+    "School": "San Diego State",
+    "Mascot": "Aztecs",
+    "Conference": "Mountain West",
+    "S-Val": 0.7495363899249186,
+    "Talent_Mod": 0.9603,
+    "S-Val-History": {
+      "Week1": 0.7407638068426284,
+      "Week2": 0.7492568498168498,
+      "Week3": 0.90891547985348,
+      "Week4": 0.8094171991331558,
+      "Week6": 0.8519828498168498,
+      "Week7": 0.7138125457875458,
+      "Week8": 0.6877565567765568,
+      "Week9": 0.7686617431201228,
+      "Week10": 0.8728586446886447,
+      "Week11": 0.6731362346697533,
+      "Week12": 0.6876338211558994,
+      "Week13": 0.7707145035205311,
+      "Week20": 0.5090628338419242
+    }
+  },
+  {
+    "School": "San Jose State",
+    "Mascot": "Spartans",
+    "Conference": "Mountain West",
+    "S-Val": 0.7081637305841865,
+    "Talent_Mod": 0.875,
+    "S-Val-History": {
+      "Week1": 0.5619941918359012,
+      "Week2": 0.8116381684981686,
+      "Week3": 0.7818257875457875,
+      "Week5": 0.7548284920533133,
+      "Week6": 0.6203039840519735,
+      "Week7": 0.2861956445122547,
+      "Week8": 0.6877565567765568,
+      "Week9": 0.8278764821313925,
+      "Week10": 0.78132673992674,
+      "Week11": 0.8895540184680489,
+      "Week12": 0.6419980345434353,
+      "Week13": 0.8526666666666667
+    }
+  },
+  {
+    "School": "South Alabama",
+    "Mascot": "Jaguars",
+    "Conference": "Sun Belt",
+    "S-Val": 0.6052351647135863,
+    "Talent_Mod": 0.8011,
+    "S-Val-History": {
+      "Week1": 0.6476596151933742,
+      "Week2": 0.5107170149875078,
+      "Week3": 0.7120515520935398,
+      "Week4": 0.6431536002256929,
+      "Week5": 0.4636963433515184,
+      "Week9": 0.5393475197967401,
+      "Week10": 0.5216120859367854,
+      "Week11": 0.5191768875516902,
+      "Week12": 0.6695291902308542,
+      "Week13": 0.8254078377681595
+    }
+  },
+  {
+    "School": "South Carolina",
+    "Mascot": "Gamecocks",
+    "Conference": "SEC",
+    "S-Val": 0.7930543898153017,
+    "Talent_Mod": 1.5239,
+    "S-Val-History": {
+      "Week1": 0.9066666666666667,
+      "Week2": 0.6444482492269378,
+      "Week4": 1.0,
+      "Week5": 0.6488169220890543,
+      "Week6": 0.800334504568684,
+      "Week7": 0.7663172398648749,
+      "Week9": 0.8903098879112932,
+      "Week10": 0.8331780529784443,
+      "Week11": 0.7852093616002774,
+      "Week12": 0.9293333333333333,
+      "Week13": 0.7553778469294522,
+      "Week14": 0.8632528754578755,
+      "Week20": 0.4864621269720295
+    }
+  },
+  {
+    "School": "South Florida",
+    "Mascot": "Bulls",
+    "Conference": "AAC",
+    "S-Val": 0.7382733413423915,
+    "Talent_Mod": 1.1147,
+    "S-Val-History": {
+      "Week1": 0.843352380952381,
+      "Week2": 0.8166245160118186,
+      "Week3": 0.9007619821274992,
+      "Week4": 0.809805684981685,
+      "Week6": 0.8685669102609709,
+      "Week7": 0.7900144174464417,
+      "Week8": 0.7635341029875096,
+      "Week9": 0.6680143704000037,
+      "Week11": 0.6659927506887121,
+      "Week12": 0.6672896439048747,
+      "Week13": 0.5196822891394909,
+      "Week20": 0.5456410472073119
+    }
+  },
+  {
+    "School": "USC",
+    "Mascot": "Trojans",
+    "Conference": "Pac-12",
+    "S-Val": 0.7865239153451156,
+    "Talent_Mod": 1.8971,
+    "S-Val-History": {
+      "Week1": 0.9691630161598409,
+      "Week2": 0.6981774435004282,
+      "Week3": 0.6451116474426126,
+      "Week4": 0.7954160271413603,
+      "Week7": 0.8569647362637364,
+      "Week8": 0.6062226332487491,
+      "Week9": 0.7983383515406537,
+      "Week10": 0.9684140000000001,
+      "Week11": 0.7493045714285714,
+      "Week12": 0.7685015517641101,
+      "Week13": 0.7961490903062088
+    }
+  },
+  {
+    "School": "SMU",
+    "Mascot": "Mustangs",
+    "Conference": "AAC",
+    "S-Val": 0.7016668288979967,
+    "Talent_Mod": 0.9864,
+    "S-Val-History": {
+      "Week1": 0.4914444102289319,
+      "Week2": 0.5934080755976804,
+      "Week3": 0.6326905940510094,
+      "Week4": 0.731886124572543,
+      "Week5": 0.9345714285714286,
+      "Week6": 0.5392628276541696,
+      "Week8": 0.7760414249511247,
+      "Week9": 0.7463754883526059,
+      "Week10": 0.9072845237214502,
+      "Week11": 0.7907360943661715,
+      "Week12": 0.6056449610497717,
+      "Week13": 0.670655993659074
+    }
+  },
+  {
+    "School": "Southern Mississippi",
+    "Mascot": "Golden Eagles",
+    "Conference": "C-USA",
+    "S-Val": 0.7716966195676291,
+    "Talent_Mod": 0.787,
+    "S-Val-History": {
+      "Week1": 0.915,
+      "Week2": 0.5957989673797159,
+      "Week4": 0.9702668807478625,
+      "Week5": 0.7249611606963589,
+      "Week7": 0.5042782292003627,
+      "Week8": 0.8389438717948718,
+      "Week9": 0.7227612124542124,
+      "Week10": 0.8008761318681319,
+      "Week11": 0.6772110204430631,
+      "Week12": 0.766596695970696,
+      "Week13": 0.9719686446886446
+    }
+  },
+  {
+    "School": "Stanford",
+    "Mascot": "Cardinal",
+    "Conference": "Pac-12",
+    "S-Val": 0.8207049925535311,
+    "Talent_Mod": 1.5984,
+    "S-Val-History": {
+      "Week1": 0.9213593663003664,
+      "Week2": 0.8787526007326008,
+      "Week3": 0.8003259340659341,
+      "Week4": 0.8669763277237987,
+      "Week5": 0.6062155923318673,
+      "Week6": 0.5966432980567703,
+      "Week8": 0.888472673992674,
+      "Week9": 0.7776076609986905,
+      "Week10": 0.7623836266131656,
+      "Week11": 0.981917805898642,
+      "Week13": 0.9300592948696731,
+      "Week14": 0.88724,
+      "Week20": 0.7712107216117217
+    }
+  },
+  {
+    "School": "Syracuse",
+    "Mascot": "Orange",
+    "Conference": "ACC",
+    "S-Val": 0.8458209816428742,
+    "Talent_Mod": 1.1586,
+    "S-Val-History": {
+      "Week1": 0.7935972905562482,
+      "Week2": 0.8987878787878788,
+      "Week3": 0.9450028571428573,
+      "Week4": 0.9390360859140034,
+      "Week5": 0.7540864859724457,
+      "Week6": 0.7299158454555489,
+      "Week8": 0.8512149042909444,
+      "Week9": 0.892302017017776,
+      "Week11": 0.9228043746097956,
+      "Week12": 0.5157081278349084,
+      "Week13": 0.9839323858352673,
+      "Week20": 0.9234635262968172
+    }
+  },
+  {
+    "School": "TCU",
+    "Mascot": "Horned Frogs",
+    "Conference": "Big 12",
+    "S-Val": 0.7820533233806568,
+    "Talent_Mod": 1.3652,
+    "S-Val-History": {
+      "Week1": 0.912,
+      "Week2": 0.9735095091575091,
+      "Week3": 0.7907820907849704,
+      "Week4": 0.715094871510874,
+      "Week5": 0.7683193076923077,
+      "Week7": 0.753428641025641,
+      "Week8": 0.6403620582760279,
+      "Week9": 0.8545119523809523,
+      "Week10": 0.8042729926739927,
+      "Week11": 0.5045541247686056,
+      "Week12": 0.6975809523809524,
+      "Week13": 0.964523956043956,
+      "Week20": 0.7877527472527472
+    }
+  },
+  {
+    "School": "Temple",
+    "Mascot": "Owls",
+    "Conference": "AAC",
+    "S-Val": 0.7935836599353101,
+    "Talent_Mod": 0.9719,
+    "S-Val-History": {
+      "Week1": 0.5491924329483812,
+      "Week2": 0.5418636731818024,
+      "Week3": 0.9744575824175825,
+      "Week4": 0.8720810256410257,
+      "Week5": 0.736965885140596,
+      "Week6": 0.9714306666666668,
+      "Week7": 0.8025471538461538,
+      "Week8": 0.8148551684981685,
+      "Week10": 0.7076542992140098,
+      "Week11": 0.8457906810609459,
+      "Week12": 0.8870917948717949,
+      "Week13": 1.0,
+      "Week20": 0.6126572156719039
+    }
+  },
+  {
+    "School": "Tennessee",
+    "Mascot": "Volunteers",
+    "Conference": "SEC",
+    "S-Val": 0.7216068409406646,
+    "Talent_Mod": 1.6803,
+    "S-Val-History": {
+      "Week1": 0.613629008587409,
+      "Week2": 0.91,
+      "Week3": 0.7992983882783884,
+      "Week4": 0.6055800102374955,
+      "Week5": 0.6149292280532612,
+      "Week7": 0.8766310373432311,
+      "Week8": 0.6248833345919281,
+      "Week9": 0.7975841600587625,
+      "Week10": 0.7480713956043956,
+      "Week11": 0.9480544322344322,
+      "Week12": 0.5133256774839836,
+      "Week13": 0.6072954188146884
+    }
+  },
+  {
+    "School": "Texas",
+    "Mascot": "Longhorns",
+    "Conference": "Big 12",
+    "S-Val": 0.8365786215362598,
+    "Talent_Mod": 1.7499,
+    "S-Val-History": {
+      "Week1": 0.7454184839491579,
+      "Week2": 0.7744853257164102,
+      "Week3": 0.9535033699633699,
+      "Week4": 0.9248694505494506,
+      "Week5": 0.8109122600732601,
+      "Week6": 0.8138556653618472,
+      "Week7": 0.8694798131868132,
+      "Week9": 0.7565389770644435,
+      "Week10": 0.7876922136039054,
+      "Week11": 0.8565316376443907,
+      "Week12": 0.9254808791208791,
+      "Week13": 0.8093992783882784,
+      "Week14": 0.7755468999989866,
+      "Week20": 0.9083864468864469
+    }
+  },
+  {
+    "School": "Texas A&M",
+    "Mascot": "Aggies",
+    "Conference": "SEC",
+    "S-Val": 0.8672044311870557,
+    "Talent_Mod": 1.637,
+    "S-Val-History": {
+      "Week1": 0.8541666666666667,
+      "Week2": 0.8485561461806959,
+      "Week3": 0.912,
+      "Week4": 0.699233978183286,
+      "Week5": 0.8927514505494507,
+      "Week6": 0.8482524945054946,
+      "Week7": 0.922068240164198,
+      "Week9": 0.6327592739078393,
+      "Week10": 0.8950949413919415,
+      "Week11": 0.9695788919400097,
+      "Week12": 0.9681656623469181,
+      "Week13": 0.8310298595952246,
+      "Week20": 1.0
+    }
+  },
+  {
+    "School": "Texas State",
+    "Mascot": "Bobcats",
+    "Conference": "Sun Belt",
+    "S-Val": 0.6593410976322275,
+    "Talent_Mod": 0.6148,
+    "S-Val-History": {
+      "Week1": 0.5153191408153613,
+      "Week2": 0.8376666666666667,
+      "Week3": 0.6611634406002507,
+      "Week4": 0.6987906849816851,
+      "Week6": 0.6431517497179597,
+      "Week7": 0.6622646556776558,
+      "Week8": 0.6903812530294778,
+      "Week9": 0.8157800526905467,
+      "Week10": 0.8741378848166332,
+      "Week11": 0.38862578123960956,
+      "Week12": 0.5966112087912088,
+      "Week13": 0.528200652559676
+    }
+  },
+  {
+    "School": "Texas Tech",
+    "Mascot": "Red Raiders",
+    "Conference": "Big 12",
+    "S-Val": 0.7936827482015084,
+    "Talent_Mod": 1.1411,
+    "S-Val-History": {
+      "Week1": 0.7153746218827911,
+      "Week2": 0.915,
+      "Week3": 0.8003855217802307,
+      "Week4": 0.996882625117024,
+      "Week5": 0.7044994933430265,
+      "Week7": 0.8652063736263735,
+      "Week8": 0.9918290952380954,
+      "Week9": 0.6498602406866444,
+      "Week10": 0.7926434156203501,
+      "Week11": 0.8222374688364118,
+      "Week12": 0.5853143537170623,
+      "Week13": 0.6849597685700896
+    }
+  },
+  {
+    "School": "UTEP",
+    "Mascot": "Miners",
+    "Conference": "C-USA",
+    "S-Val": 0.6049182052425258,
+    "Talent_Mod": 0.7026,
+    "S-Val-History": {
+      "Week1": 0.4311295088806314,
+      "Week2": 0.5165243573334303,
+      "Week3": 0.5620077744934272,
+      "Week4": 0.6911719583330167,
+      "Week5": 0.6983509356623747,
+      "Week6": 0.6835756380115355,
+      "Week8": 0.6937881644284001,
+      "Week9": 0.576063193296618,
+      "Week10": 0.8285296157671012,
+      "Week11": 0.6470761407933817,
+      "Week12": 0.515915842132579,
+      "Week13": 0.41488533377781406
+    }
+  },
+  {
+    "School": "UT San Antonio",
+    "Mascot": "Roadrunners",
+    "Conference": "C-USA",
+    "S-Val": 0.5836490365126638,
+    "Talent_Mod": 0.8233,
+    "S-Val-History": {
+      "Week1": 0.40910179741168795,
+      "Week2": 0.6369939483753614,
+      "Week3": 0.6048532594554268,
+      "Week4": 0.773203706959707,
+      "Week5": 0.8107623517779157,
+      "Week6": 0.7881381611721612,
+      "Week7": 0.5706408773609843,
+      "Week8": 0.5769229318327959,
+      "Week10": 0.32036167366461754,
+      "Week11": 0.42162725542180884,
+      "Week12": 0.4226980242956771,
+      "Week13": 0.6684844504238222
+    }
+  },
+  {
+    "School": "Toledo",
+    "Mascot": "Rockets",
+    "Conference": "MAC",
+    "S-Val": 0.7705098538148664,
+    "Talent_Mod": 0.9427,
+    "S-Val-History": {
+      "Week1": 0.915,
+      "Week3": 0.6404436235735147,
+      "Week4": 0.8267752094606198,
+      "Week5": 0.5932276210964761,
+      "Week6": 0.818502662624232,
+      "Week7": 0.6389971788801817,
+      "Week8": 0.6057919160463725,
+      "Week9": 0.9174883216549885,
+      "Week10": 0.9656540000000001,
+      "Week11": 0.60519115597314,
+      "Week12": 0.8465998842519223,
+      "Week13": 0.9378234285714286,
+      "Week20": 0.7051330974603868
+    }
+  },
+  {
+    "School": "Troy",
+    "Mascot": "Trojans",
+    "Conference": "Sun Belt",
+    "S-Val": 0.810659258457505,
+    "Talent_Mod": 0.716,
+    "S-Val-History": {
+      "Week1": 0.5543475353156003,
+      "Week2": 0.9186666666666667,
+      "Week3": 0.8388570285705337,
+      "Week4": 0.8245003678636738,
+      "Week5": 0.91080591858758,
+      "Week6": 0.9310050461061417,
+      "Week7": 0.6129353141091651,
+      "Week9": 0.9887144285714287,
+      "Week10": 0.9181516703296704,
+      "Week11": 0.8770296029641635,
+      "Week12": 0.7332833406593408,
+      "Week13": 0.5686301856336067,
+      "Week20": 0.8616432545699931
+    }
+  },
+  {
+    "School": "Tulane",
+    "Mascot": "Green Wave",
+    "Conference": "AAC",
+    "S-Val": 0.759520857727181,
+    "Talent_Mod": 0.9049,
+    "S-Val-History": {
+      "Week1": 0.7611187462328365,
+      "Week2": 0.8720700994220156,
+      "Week3": 0.5318070851351014,
+      "Week4": 0.6135429746953418,
+      "Week5": 0.9561483333333334,
+      "Week6": 0.6207453961176341,
+      "Week8": 0.7620575677655679,
+      "Week9": 0.8164803663003664,
+      "Week11": 0.896879750915751,
+      "Week12": 0.5336455486198186,
+      "Week13": 0.7782524241884055,
+      "Week20": 0.9715020000000001
+    }
+  },
+  {
+    "School": "Tulsa",
+    "Mascot": "Golden Hurricane",
+    "Conference": "AAC",
+    "S-Val": 0.7065914752273638,
+    "Talent_Mod": 0.748,
+    "S-Val-History": {
+      "Week1": 0.7812168455815639,
+      "Week2": 0.7468917701479697,
+      "Week3": 0.6312524357843348,
+      "Week4": 0.628275959339585,
+      "Week6": 0.676093855137349,
+      "Week7": 0.742729868312509,
+      "Week8": 0.6259482166197017,
+      "Week9": 0.6685883187953441,
+      "Week10": 0.9340129156208259,
+      "Week11": 0.5154190893281627,
+      "Week12": 0.6287868309914212,
+      "Week13": 0.8998815970695971
+    }
+  },
+  {
+    "School": "Utah",
+    "Mascot": "Utes",
+    "Conference": "Pac-12",
+    "S-Val": 0.8347728131624038,
+    "Talent_Mod": 1.2082,
+    "S-Val-History": {
+      "Week1": 0.8216666666666668,
+      "Week2": 0.7942722930402931,
+      "Week3": 0.6717050185870022,
+      "Week5": 0.7437833657255837,
+      "Week6": 1.0,
+      "Week7": 1.0,
+      "Week8": 1.0,
+      "Week9": 1.0,
+      "Week10": 0.602215976823469,
+      "Week11": 0.9055967676756995,
+      "Week12": 0.9473245421245422,
+      "Week13": 0.8165153703125829,
+      "Week14": 0.6888287032967033,
+      "Week20": 0.6949106800211077
+    }
+  },
+  {
+    "School": "Utah State",
+    "Mascot": "Aggies",
+    "Conference": "Mountain West",
+    "S-Val": 0.8608456719231354,
+    "Talent_Mod": 0.7668,
+    "S-Val-History": {
+      "Week1": 0.6910457925273734,
+      "Week2": 0.906,
+      "Week3": 0.87,
+      "Week4": 0.7387346923692029,
+      "Week6": 0.993484761904762,
+      "Week7": 0.9036843420661698,
+      "Week8": 0.759403816849817,
+      "Week9": 1.0,
+      "Week10": 0.9968570000000001,
+      "Week11": 0.8895540184680489,
+      "Week12": 0.7967181928695468,
+      "Week13": 0.6455111179458407,
+      "Week20": 1.0
+    }
+  },
+  {
+    "School": "Vanderbilt",
+    "Mascot": "Commodores",
+    "Conference": "SEC",
+    "S-Val": 0.8135071635676088,
+    "Talent_Mod": 1.2435,
+    "S-Val-History": {
+      "Week1": 0.9732852747252747,
+      "Week2": 1.0,
+      "Week3": 0.7904075906745472,
+      "Week4": 0.6257517434044384,
+      "Week5": 0.7522866344903875,
+      "Week6": 0.6351372773550108,
+      "Week7": 0.7437743509792123,
+      "Week8": 0.769599087912088,
+      "Week9": 0.8808767643747624,
+      "Week11": 0.8048742290621173,
+      "Week12": 0.840487404495208,
+      "Week13": 0.9979921611721612,
+      "Week20": 0.7611206077337045
+    }
+  },
+  {
+    "School": "Virginia",
+    "Mascot": "Cavaliers",
+    "Conference": "ACC",
+    "S-Val": 0.8286508486687031,
+    "Talent_Mod": 1.1021,
+    "S-Val-History": {
+      "Week1": 0.9123333333333334,
+      "Week2": 0.7169239425924473,
+      "Week3": 0.7279592893907642,
+      "Week4": 0.9400076190476192,
+      "Week5": 0.6387619195023383,
+      "Week7": 0.813640347985348,
+      "Week8": 0.913734358974359,
+      "Week9": 0.9604469040541586,
+      "Week10": 0.692507971752485,
+      "Week11": 0.900136745936148,
+      "Week12": 0.8250451758982897,
+      "Week13": 0.7947621788046075,
+      "Week20": 0.9362012454212454
+    }
+  },
+  {
+    "School": "Virginia Tech",
+    "Mascot": "Hokies",
+    "Conference": "ACC",
+    "S-Val": 0.7613907515262274,
+    "Talent_Mod": 1.373,
+    "S-Val-History": {
+      "Week1": 0.8915030036630036,
+      "Week2": 0.915,
+      "Week4": 0.6777406862239882,
+      "Week5": 0.9581528937728938,
+      "Week6": 0.6927952434582161,
+      "Week7": 0.7838272850212361,
+      "Week9": 0.6326187047648183,
+      "Week10": 0.6652549783115548,
+      "Week11": 0.6059820448409834,
+      "Week12": 0.6312750544626925,
+      "Week13": 0.7878821316640503,
+      "Week14": 0.9334968930923699,
+      "Week20": 0.722550850565151
+    }
+  },
+  {
+    "School": "Wake Forest",
+    "Mascot": "Demon Deacons",
+    "Conference": "ACC",
+    "S-Val": 0.7761639717340633,
+    "Talent_Mod": 1.0677,
+    "S-Val-History": {
+      "Week1": 0.7997004051021795,
+      "Week2": 0.8566666666666667,
+      "Week3": 0.6950239136534535,
+      "Week4": 0.6617372542875265,
+      "Week5": 0.9715187755179824,
+      "Week6": 0.48039968024196433,
+      "Week8": 0.6588771043280983,
+      "Week9": 0.8668986267811201,
+      "Week11": 0.8893815421245422,
+      "Week12": 0.6147078789067426,
+      "Week13": 1.0,
+      "Week20": 0.8190558131984822
+    }
+  },
+  {
+    "School": "Washington",
+    "Mascot": "Huskies",
+    "Conference": "Pac-12",
+    "S-Val": 0.8751745985855793,
+    "Talent_Mod": 1.5704,
+    "S-Val-History": {
+      "Week1": 0.8041586319679598,
+      "Week2": 0.8586666666666667,
+      "Week3": 0.8816668864468864,
+      "Week4": 0.933847032967033,
+      "Week5": 1.0,
+      "Week6": 0.9008644845496145,
+      "Week7": 0.824515637293459,
+      "Week8": 0.8880056153846154,
+      "Week9": 0.7208237655677656,
+      "Week10": 0.8615958764945144,
+      "Week12": 0.9552237647496846,
+      "Week13": 0.9712026666666668,
+      "Week14": 0.8186717216117216,
+      "Week20": 0.8332016298315226
+    }
+  },
+  {
+    "School": "Washington State",
+    "Mascot": "Cougars",
+    "Conference": "Pac-12",
+    "S-Val": 0.8303427414631753,
+    "Talent_Mod": 1.1272,
+    "S-Val-History": {
+      "Week1": 0.7894883516483516,
+      "Week2": 0.8116381684981686,
+      "Week3": 0.8642224164078582,
+      "Week4": 0.8510937558774252,
+      "Week5": 0.7924526060934086,
+      "Week6": 0.8240236127838939,
+      "Week8": 0.9206830109890111,
+      "Week9": 0.8641421349839671,
+      "Week10": 0.8562675018315019,
+      "Week11": 0.9472038827838829,
+      "Week12": 0.9143662046843155,
+      "Week13": 0.6212847613199514,
+      "Week20": 0.7375892311195431
+    }
+  },
+  {
+    "School": "West Virginia",
+    "Mascot": "Mountaineers",
+    "Conference": "Big 12",
+    "S-Val": 0.866618918082218,
+    "Talent_Mod": 1.3145,
+    "S-Val-History": {
+      "Week1": 1.0,
+      "Week2": 0.8675,
+      "Week4": 0.962891380952381,
+      "Week5": 0.8922749077160061,
+      "Week6": 0.952011751825686,
+      "Week7": 0.5455375468085626,
+      "Week9": 1.0,
+      "Week10": 0.8421984290151099,
+      "Week11": 1.0,
+      "Week12": 0.8283288826562221,
+      "Week13": 0.7794041801961669,
+      "Week20": 0.7292799378164809
+    }
+  },
+  {
+    "School": "Western Kentucky",
+    "Mascot": "Hilltoppers",
+    "Conference": "C-USA",
+    "S-Val": 0.6855156681585215,
+    "Talent_Mod": 0.7181,
+    "S-Val-History": {
+      "Week1": 0.5031238237140082,
+      "Week2": 0.6141406458460602,
+      "Week3": 0.834278,
+      "Week4": 0.8080477435163451,
+      "Week5": 0.7456864634631452,
+      "Week7": 0.4329225783395121,
+      "Week8": 0.7310030337134863,
+      "Week9": 0.5655295978275706,
+      "Week10": 0.5548653006053595,
+      "Week11": 0.6077113510232912,
+      "Week12": 0.9842383150183149,
+      "Week13": 0.8446411648351648
+    }
+  },
+  {
+    "School": "Western Michigan",
+    "Mascot": "Broncos",
+    "Conference": "MAC",
+    "S-Val": 0.7415350693502755,
+    "Talent_Mod": 0.8987,
+    "S-Val-History": {
+      "Week1": 0.7084874562801795,
+      "Week2": 0.4966442773218386,
+      "Week3": 0.9033333333333334,
+      "Week4": 1.0,
+      "Week5": 0.8198300777581302,
+      "Week6": 0.737019420940095,
+      "Week7": 0.7894991635219468,
+      "Week8": 0.9512211721611723,
+      "Week9": 0.576611217243917,
+      "Week10": 0.38020778610889294,
+      "Week12": 0.8529576651253875,
+      "Week13": 0.8871429890109891,
+      "Week20": 0.5370013427476978
+    }
+  },
+  {
+    "School": "Wisconsin",
+    "Mascot": "Badgers",
+    "Conference": "Big Ten",
+    "S-Val": 0.8324962277027381,
+    "Talent_Mod": 1.3278,
+    "S-Val-History": {
+      "Week1": 0.9060215384615385,
+      "Week2": 1.0,
+      "Week3": 0.7676391093777291,
+      "Week4": 0.9308785976149814,
+      "Week6": 0.9075877617682315,
+      "Week7": 0.6689300086924169,
+      "Week8": 1.0,
+      "Week9": 0.7012049003537912,
+      "Week10": 0.929586293040293,
+      "Week11": 0.6284514418346541,
+      "Week12": 0.8264964339336677,
+      "Week13": 0.5780421278055464,
+      "Week20": 0.9776127472527474
+    }
+  },
+  {
+    "School": "Wyoming",
+    "Mascot": "Cowboys",
+    "Conference": "Mountain West",
+    "S-Val": 0.7255670869064968,
+    "Talent_Mod": 0.7078,
+    "S-Val-History": {
+      "Week1": 0.8080392673992675,
+      "Week2": 0.5341981136617526,
+      "Week3": 0.6700671794871795,
+      "Week5": 0.5817830449927335,
+      "Week6": 0.7399937032967033,
+      "Week7": 0.5056915453634635,
+      "Week8": 0.7015883223443223,
+      "Week9": 1.0,
+      "Week10": 0.78132673992674,
+      "Week12": 0.7551094167886812,
+      "Week13": 0.9034406227106229
+    }
+  }
+]
