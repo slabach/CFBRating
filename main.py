@@ -45,9 +45,11 @@ class App:
                 team = team.replace("Jose", "Jos%C3%A9")
 
             if self.week_num == 20:
-                req_url = "https://api.collegefootballdata.com/games/teams?year={0}&seasonType=postseason&team={2}".format(self.cur_year, self.week_num, team)
+                req_url = "https://api.collegefootballdata.com/games/teams?year={0}&seasonType=postseason&team={2}".format(
+                    self.cur_year, self.week_num, team)
             else:
-                req_url = "https://api.collegefootballdata.com/games/teams?year={0}&week={1}&seasonType=regular&team={2}".format(self.cur_year, self.week_num, team)
+                req_url = "https://api.collegefootballdata.com/games/teams?year={0}&week={1}&seasonType=regular&team={2}".format(
+                    self.cur_year, self.week_num, team)
 
             page_text = requests.get(req_url).text
             page_json = json.loads(page_text)
@@ -60,7 +62,7 @@ class App:
         print("Complete")
 
     def sval_calc(self):
-        
+
         def opp_strength(name):
 
             with open(self.teamsPath, "r") as ostr:
@@ -68,9 +70,8 @@ class App:
 
             for entry in talent_json:
                 if any(entry['School'] == name for entry in talent_json):
-                    
+
                     if name == entry['School']:
-                        
                         return entry['Talent_Mod']
                 else:
                     return 0.2
@@ -87,16 +88,16 @@ class App:
                 game_json = json.load(tm)
 
             for gs in game_json:
-                
-                #region set game stats
-                #if team is first team in game file
+
+                # region set game stats
+                # if team is first team in game file
                 if gs["teams"][0]["school"] == team:
                     opponent = gs["teams"][1]["school"]
                     if "José" in opponent:
                         opponent = opponent.replace("José", "Jose")
                     opponent_str_mod = float(opp_strength(opponent))
 
-                    #set offensive values
+                    # set offensive values
                     team_o_points_scored = int(gs["teams"][0]["points"])
                     for i in gs["teams"][0]["stats"]:
                         if i['category'] == 'yardsPerRushAttempt':
@@ -112,7 +113,7 @@ class App:
                             team_o_possession_time = float((i["stat"]).split(":")[0]) + \
                                                      (float((i["stat"]).split(":")[1]) / 60)
 
-                    #set defensive values
+                    # set defensive values
                     team_d_points_allow = int(gs["teams"][1]["points"])
                     for i in gs["teams"][1]["stats"]:
                         if i['category'] == 'yardsPerRushAttempt':
@@ -131,16 +132,16 @@ class App:
                             team_d_possession_time = float((i["stat"]).split(":")[0]) + \
                                                      (float((i["stat"]).split(":")[1]) / 60)
 
-                    #set team values
+                    # set team values
                     team_game_margin = int(gs["teams"][0]["points"]) - int(gs["teams"][1]["points"])
-                    for i in gs["teams"][1]["stats"]:                        
+                    for i in gs["teams"][1]["stats"]:
                         if i['category'] == 'turnovers':
                             opp_game_to = int(i["stat"])
 
                     for i in gs["teams"][0]["stats"]:
                         if i['category'] == 'turnovers':
                             team_game_to = int(i["stat"])
-                        
+
                         if i['category'] == 'totalPenaltiesYards':
                             team_game_penalties = int((i["stat"]).split("-")[0])
 
@@ -148,13 +149,13 @@ class App:
 
                     # print(f"team: {gs['teams'][0]['school']} - time: {team_game_penalties}")
 
-                #if team is second team in game file
+                # if team is second team in game file
                 else:
                     opponent = gs["teams"][0]["school"]
                     opponent_str_mod = float(opp_strength(opponent))
                     # print(f"Team: {team}, Opp: {opponent}, Mod: {opponent_str_mod}")
 
-                    #set offensive stats
+                    # set offensive stats
                     team_o_points_scored = int(gs["teams"][1]["points"])
                     for i in gs["teams"][1]["stats"]:
                         if i['category'] == 'yardsPerRushAttempt':
@@ -169,8 +170,8 @@ class App:
                         if i['category'] == 'possessionTime':
                             team_o_possession_time = float((i["stat"]).split(":")[0]) + \
                                                      (float((i["stat"]).split(":")[1]) / 60)
-                        
-                    #set defensive stats
+
+                    # set defensive stats
                     team_d_points_allow = int(gs["teams"][0]["points"])
                     for i in gs["teams"][0]["stats"]:
                         if i['category'] == 'yardsPerRushAttempt':
@@ -178,7 +179,7 @@ class App:
                                 team_d_yrds_rush = 1.0
                             else:
                                 team_d_yrds_rush = float(i["stat"])
-                        
+
                         if i['category'] == 'yardsPerPass':
                             team_d_yrds_pass = float(i["stat"])
 
@@ -188,9 +189,8 @@ class App:
                         if i['category'] == 'possessionTime':
                             team_d_possession_time = float((i["stat"]).split(":")[0]) + \
                                                      (float((i["stat"]).split(":")[1]) / 60)
-                        
 
-                    #set team stats
+                    # set team stats
                     team_game_margin = int(gs["teams"][1]["points"]) - int(gs["teams"][0]["points"])
                     for i in gs["teams"][1]["stats"]:
                         if i['category'] == 'totalPenaltiesYards':
@@ -204,7 +204,7 @@ class App:
                             opp_game_to = int(i["stat"])
 
                     team_game_turnover_margin = opp_game_to - team_game_to
-                #endregion
+                # endregion
 
                 # region offense calculations
                 if team_o_points_scored == 0:
@@ -258,7 +258,8 @@ class App:
                 if (d_sval_points_allowed + d_sval_ypr + d_sval_ypp + d_sval_yd_given + d_sval_pos_time_allowed) > 1:
                     d_sval = 1.0
                 else:
-                    d_sval = (d_sval_points_allowed + d_sval_ypr + d_sval_ypp + d_sval_yd_given + d_sval_pos_time_allowed)
+                    d_sval = (
+                                d_sval_points_allowed + d_sval_ypr + d_sval_ypp + d_sval_yd_given + d_sval_pos_time_allowed)
                 # endregion
 
                 # region misc calculations
@@ -281,8 +282,8 @@ class App:
                 else:
                     m_sval_turnovers = (.1 * ((team_game_turnover_margin / self.model_game_turnover_margin) - 1))
 
-                if (opponent_str_mod < 0.8) and self.week_num <= 3:
-                    opponent_str = (.65 * 0)
+                if (opponent_str_mod < 1.0) and self.week_num <= 3:
+                    opponent_str = (.65 * 0.1)
                 else:
                     opponent_str = (.65 * opponent_str_mod)
 
@@ -302,18 +303,20 @@ class App:
 
                 acm_sval = 0.0
                 i = 1
-                
+
                 while i <= self.week_num:
                     key_variable = "Week" + str(i)
 
                     if key_variable in t['S-Val-History']:
                         acm_sval = acm_sval + t['S-Val-History'][key_variable]
-                        
                         i = i + 1
                     else:
                         i = i + 1
 
-                t['S-Val'] = (acm_sval / len(t['S-Val-History']))
+                if team_game_margin < 0:
+                    t['S-Val'] = (acm_sval / len(t['S-Val-History'])) * .985
+                else:
+                    t['S-Val'] = (acm_sval / len(t['S-Val-History']))
                 print_sval = (acm_sval / len(t['S-Val-History']))
 
                 # print(len(t['S-Val-History']))
@@ -366,25 +369,25 @@ class App:
     # def update_teamsjson(self):
     #     with open(self.teamsPath, "r") as t:
     #         teams_json = json.load(t)
-    
+    #
     #     # def json_name(name):
     #     #     with open("lib/talentMod.json", "r") as tm:
     #     #         talent_json = json.load(tm)
-    
+    #
     #     #     for entry in talent_json:
     #     #         if name == entry['Team']:
     #     #             print(f"School: {entry['Team']}, Talent Mod: {entry['TalentMod']}")
     #     #             return entry['TalentMod']
-    
+    #
     #     for t in teams_json:
-    #         school_name = t['School']
-    
+    #         # school_name = t['School']
+    #
     #         t['S-Val-History'] = {}
     #         t['S-Val'] = 0.0
-    
+    #
     #     with open("lib/2018/output.json", 'w') as output_file:
     #         json.dump(teams_json, output_file, indent=2)
-    
+    #
     #     print('Complete')
     # endregion
 
