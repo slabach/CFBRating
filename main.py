@@ -8,8 +8,9 @@ import numpy as np
 
 
 class App:
-    def __init__(self, teams_path, cur_year, week_num):
+    def __init__(self, teams_path, output_path, cur_year, week_num):
         self.teamsPath = teams_path
+        self.output_path = output_path
         self.cur_year = cur_year
         self.week_num = week_num
         self.model_o_points_scored = 35
@@ -63,32 +64,66 @@ class App:
         print("Complete")
 
     def recalc_talent_mod(self):
-        with open("lib/2018/output.json", "r") as t:
+        with open(self.output_path, "r") as t:
             teams_json = json.load(t)
 
         max_sval = max(x["S-Val"] for x in teams_json)
-        min_sval = min(n["S-Val"] for n in teams_json)
-        med_sval = statistics.median(n["S-Val"] for n in teams_json)
-
-        print(f"{max_sval}, {min_sval}, {med_sval}")
-        # print(f"{num_range}")
 
         for t in teams_json:
-            cur_sval = t['S-Val']
-            perc_from_top = (cur_sval / max_sval)
+            perc_from_top = (t['S-Val'] / max_sval)
+            # updated_talent_mod = 0.0
+            multiplier = 0.0
+            power5_conf = ['SEC', 'Pac-12', 'Big 12', 'ACC', 'Big Ten']
 
-            # if perc_from_top == 1
-            #     t['Talent_Mod'] = 2.0
-            # elif (perc_from_top < 1.0) and (perc_from_top <= 0.93)
-            #     t['Talent_Mod'] = (cur_sval * 1.95)
-            # elif (cur_sval < 0.93) and (cur_sval >= 0.925)
-            #     t['Talent_Mod'] = (cur_sval * 1.90)
-            # elif (cur_sval < 0.925) and (cur_sval >= 0.925)
-            #     t['Talent_Mod'] = (cur_sval * 1.9)
-            # elif cur_sval == 0:
-            #     pass
-            # else:
-            #     pass
+            #region set multiplier
+            if perc_from_top == 1:
+                multiplier = 2.0
+            elif 0.950 <= perc_from_top < 1.000:
+                multiplier = 1.950
+            elif 0.925 <= perc_from_top < 0.950:
+                multiplier = 1.90
+            elif 0.920 <= perc_from_top < 0.925:
+                multiplier = 1.85
+            elif 0.910 <= perc_from_top < 0.920:
+                multiplier = 1.8
+            elif 0.900 <= perc_from_top < 0.910:
+                multiplier = 1.75
+            elif 0.890 <= perc_from_top < 0.900:
+                multiplier = 1.7
+            elif 0.880 <= perc_from_top < 0.890:
+                multiplier = 1.65
+            elif 0.870 <= perc_from_top < 0.880:
+                multiplier = 1.55
+            elif 0.850 <= perc_from_top < 0.870:
+                multiplier = 1.45
+            elif 0.750 <= perc_from_top < 0.850:
+                multiplier = 1.35
+            elif 0.690 <= perc_from_top < 0.750:
+                multiplier = 1.30
+            elif 0.05 <= perc_from_top < 0.690:
+                multiplier = 1.25
+            else:
+                pass
+            #endregion
+
+            if multiplier != 0:
+                if self.week_num <= 2:
+                    updated_talent_mod = (perc_from_top * multiplier)
+                else:
+                    updated_talent_mod = (((perc_from_top * multiplier) + t['Talent_Mod']) / 2)
+                # updated_talent_mod = (perc_from_top * multiplier)
+            else:
+                updated_talent_mod = t['Talent_Mod']
+
+            if (t['Conference'] not in power5_conf) and (t['School'] != 'Notre Dame'):
+                updated_talent_mod = updated_talent_mod * .65
+
+            t['Talent_Mod'] = updated_talent_mod
+
+        with open(self.output_path, "w") as output_file:
+            json.dump(teams_json, output_file, indent=2)
+
+        print("Complete")
 
     def sval_calc(self):
 
@@ -289,7 +324,7 @@ class App:
                     d_sval = 1.0
                 else:
                     d_sval = (
-                                d_sval_points_allowed + d_sval_ypr + d_sval_ypp + d_sval_yd_given + d_sval_pos_time_allowed)
+                            d_sval_points_allowed + d_sval_ypr + d_sval_ypp + d_sval_yd_given + d_sval_pos_time_allowed)
                 # endregion
 
                 # region misc calculations
@@ -347,7 +382,7 @@ class App:
                     t['S-Val'] = (acm_sval / len(t['S-Val-History'])) * .985
                 else:
                     t['S-Val'] = (acm_sval / len(t['S-Val-History']))
-                    
+
                 print_sval = (acm_sval / len(t['S-Val-History']))
 
                 # t['Talent_Mod'] = recalc_talent_mod(print_sval)
@@ -355,7 +390,7 @@ class App:
                 # print(len(t['S-Val-History']))
                 print(f"{team}, {print_sval}, {o_sval}, {d_sval}, {m_sval}")
 
-        with open("lib/2018/output.json", "w") as output_file:
+        with open(self.output_path, "w") as output_file:
             json.dump(teams_json, output_file, indent=2)
 
     # region old code
@@ -394,7 +429,7 @@ class App:
     #
     #         t['Conference'] = conferenceNameTag
     #
-    #     with open("CFBRating/lib/output.json", 'w') as output_file:
+    #     with open(self.output_path, 'w') as output_file:
     #         json.dump(teams_json, output_file)
     #
     #     print('Complete')
@@ -418,7 +453,7 @@ class App:
     #         t['S-Val-History'] = {}
     #         t['S-Val'] = 0.0
     #
-    #     with open("lib/2018/output.json", 'w') as output_file:
+    #     with open(self.output_path, 'w') as output_file:
     #         json.dump(teams_json, output_file, indent=2)
     #
     #     print('Complete')
@@ -429,12 +464,15 @@ def main():
     # now = datetime.datetime.now()
     # year = now.year
     year = 2018
-    week_number = 1
+    week_number = 8
 
-    a = App("lib/2018/teams-fbs.json", year, week_number)
+    a = App("lib/2018/teams-fbs.json", "lib/2018/output.json", year, week_number)
     # a.get_weekly_games(week_number)
     a.sval_calc()
-    a.recalc_talent_mod()
+
+    if week_number >= 1:
+        a.recalc_talent_mod()
+
     # a.update_teamsjson()
 
 
