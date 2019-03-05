@@ -1,9 +1,10 @@
 # core modules
-import sys, os, json, requests, re, datetime
+import sys, os, json, requests, re, datetime, statistics
 from bs4 import BeautifulSoup
 
 # other modules
 import wikipedia
+import numpy as np
 
 
 class App:
@@ -61,6 +62,34 @@ class App:
 
         print("Complete")
 
+    def recalc_talent_mod(self):
+        with open("lib/2018/output.json", "r") as t:
+            teams_json = json.load(t)
+
+        max_sval = max(x["S-Val"] for x in teams_json)
+        min_sval = min(n["S-Val"] for n in teams_json)
+        med_sval = statistics.median(n["S-Val"] for n in teams_json)
+
+        print(f"{max_sval}, {min_sval}, {med_sval}")
+        # print(f"{num_range}")
+
+        for t in teams_json:
+            cur_sval = t['S-Val']
+            perc_from_top = (cur_sval / max_sval)
+
+            # if perc_from_top == 1
+            #     t['Talent_Mod'] = 2.0
+            # elif (perc_from_top < 1.0) and (perc_from_top <= 0.93)
+            #     t['Talent_Mod'] = (cur_sval * 1.95)
+            # elif (cur_sval < 0.93) and (cur_sval >= 0.925)
+            #     t['Talent_Mod'] = (cur_sval * 1.90)
+            # elif (cur_sval < 0.925) and (cur_sval >= 0.925)
+            #     t['Talent_Mod'] = (cur_sval * 1.9)
+            # elif cur_sval == 0:
+            #     pass
+            # else:
+            #     pass
+
     def sval_calc(self):
 
         def opp_strength(name):
@@ -95,6 +124,7 @@ class App:
                     opponent = gs["teams"][1]["school"]
                     if "José" in opponent:
                         opponent = opponent.replace("José", "Jose")
+
                     opponent_str_mod = float(opp_strength(opponent))
 
                     # set offensive values
@@ -317,7 +347,10 @@ class App:
                     t['S-Val'] = (acm_sval / len(t['S-Val-History'])) * .985
                 else:
                     t['S-Val'] = (acm_sval / len(t['S-Val-History']))
+                    
                 print_sval = (acm_sval / len(t['S-Val-History']))
+
+                # t['Talent_Mod'] = recalc_talent_mod(print_sval)
 
                 # print(len(t['S-Val-History']))
                 print(f"{team}, {print_sval}, {o_sval}, {d_sval}, {m_sval}")
@@ -401,6 +434,7 @@ def main():
     a = App("lib/2018/teams-fbs.json", year, week_number)
     # a.get_weekly_games(week_number)
     a.sval_calc()
+    a.recalc_talent_mod()
     # a.update_teamsjson()
 
 
