@@ -363,6 +363,13 @@ class App:
                 else:
                     sval = ((.4 * o_sval) + (.4 * d_sval) + (.2 * m_sval))
 
+                if team_game_margin < 0 and self.week_num >= 14:
+                    sval = sval * .95
+                elif team_game_margin < 0:
+                    sval = sval * .925
+                else:
+                    pass
+
                 key_var = "Week" + str(self.week_num)
                 t['S-Val-History'][key_var] = sval
 
@@ -464,7 +471,7 @@ def main():
     # now = datetime.datetime.now()
     # year = now.year
     year = 2018
-    week_number = 8
+    week_number = 21
 
     a = App("lib/2018/teams-fbs.json", "lib/2018/output.json", year, week_number)
     # a.get_weekly_games(week_number)
