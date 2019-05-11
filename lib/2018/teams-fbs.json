@@ -5,7 +5,13 @@
     "Conference": "Mountain West",
     "S-Val": 0.0,
     "Talent_Mod": 0.3785,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Akron",
@@ -13,7 +19,13 @@
     "Conference": "MAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.7335,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Alabama",
@@ -21,7 +33,13 @@
     "Conference": "SEC",
     "S-Val": 0.0,
     "Talent_Mod": 1.9883,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "UAB",
@@ -29,7 +47,13 @@
     "Conference": "C-USA",
     "S-Val": 0.0,
     "Talent_Mod": 0.7878,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Appalachian State",
@@ -37,7 +61,13 @@
     "Conference": "Sun Belt",
     "S-Val": 0.0,
     "Talent_Mod": 0.7237,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Arizona",
@@ -45,7 +75,13 @@
     "Conference": "Pac-12",
     "S-Val": 0.0,
     "Talent_Mod": 1.1796,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Arizona State",
@@ -53,7 +89,13 @@
     "Conference": "Pac-12",
     "S-Val": 0.0,
     "Talent_Mod": 1.3974,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Arkansas",
@@ -61,7 +103,13 @@
     "Conference": "SEC",
     "S-Val": 0.0,
     "Talent_Mod": 1.4114,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Arkansas State",
@@ -69,7 +117,13 @@
     "Conference": "Sun Belt",
     "S-Val": 0.0,
     "Talent_Mod": 0.8813,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Army",
@@ -77,7 +131,13 @@
     "Conference": "Independent",
     "S-Val": 0.0,
     "Talent_Mod": 0.4689,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Auburn",
@@ -85,7 +145,13 @@
     "Conference": "SEC",
     "S-Val": 0.0,
     "Talent_Mod": 1.6811,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Ball State",
@@ -93,7 +159,13 @@
     "Conference": "MAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.7358,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Baylor",
@@ -101,7 +173,13 @@
     "Conference": "Big 12",
     "S-Val": 0.0,
     "Talent_Mod": 1.3581,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Boise State",
@@ -109,7 +187,13 @@
     "Conference": "Mountain West",
     "S-Val": 0.0,
     "Talent_Mod": 1.1042,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Boston College",
@@ -117,7 +201,13 @@
     "Conference": "ACC",
     "S-Val": 0.0,
     "Talent_Mod": 1.0839,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Bowling Green",
@@ -125,7 +215,13 @@
     "Conference": "MAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.7622,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Buffalo",
@@ -133,7 +229,13 @@
     "Conference": "MAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.7501,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "BYU",
@@ -141,7 +243,13 @@
     "Conference": "Independent",
     "S-Val": 0.0,
     "Talent_Mod": 1.1498,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "California",
@@ -149,7 +257,13 @@
     "Conference": "Pac-12",
     "S-Val": 0.0,
     "Talent_Mod": 1.2112,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "UCLA",
@@ -157,7 +271,13 @@
     "Conference": "Pac-12",
     "S-Val": 0.0,
     "Talent_Mod": 1.5327,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "UCF",
@@ -165,7 +285,13 @@
     "Conference": "AAC",
     "S-Val": 0.0,
     "Talent_Mod": 1.1548,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Central Michigan",
@@ -173,7 +299,13 @@
     "Conference": "MAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.8404,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Charlotte",
@@ -181,7 +313,13 @@
     "Conference": "C-USA",
     "S-Val": 0.0,
     "Talent_Mod": 0.6319,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Cincinnati",
@@ -189,7 +327,13 @@
     "Conference": "AAC",
     "S-Val": 0.0,
     "Talent_Mod": 1.1049,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Clemson",
@@ -197,7 +341,13 @@
     "Conference": "ACC",
     "S-Val": 0.0,
     "Talent_Mod": 1.8149,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Coastal Carolina",
@@ -205,7 +355,13 @@
     "Conference": "Sun Belt",
     "S-Val": 0.0,
     "Talent_Mod": 0.5775,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Colorado",
@@ -213,7 +369,13 @@
     "Conference": "Pac-12",
     "S-Val": 0.0,
     "Talent_Mod": 1.1697,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Colorado State",
@@ -221,7 +383,13 @@
     "Conference": "Mountain West",
     "S-Val": 0.0,
     "Talent_Mod": 0.9753,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Connecticut",
@@ -229,7 +397,13 @@
     "Conference": "AAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.7908,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Duke",
@@ -237,7 +411,13 @@
     "Conference": "ACC",
     "S-Val": 0.0,
     "Talent_Mod": 1.2915,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Eastern Michigan",
@@ -245,7 +425,13 @@
     "Conference": "MAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.6991,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "East Carolina",
@@ -253,7 +439,13 @@
     "Conference": "AAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.8828,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Florida International",
@@ -261,7 +453,13 @@
     "Conference": "C-USA",
     "S-Val": 0.0,
     "Talent_Mod": 0.9682,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Florida",
@@ -269,7 +467,13 @@
     "Conference": "SEC",
     "S-Val": 0.0,
     "Talent_Mod": 1.6901,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Florida Atlantic",
@@ -277,7 +481,13 @@
     "Conference": "C-USA",
     "S-Val": 0.0,
     "Talent_Mod": 1.093,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Florida State",
@@ -285,7 +495,13 @@
     "Conference": "ACC",
     "S-Val": 0.0,
     "Talent_Mod": 1.8059,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Fresno State",
@@ -293,7 +509,13 @@
     "Conference": "Mountain West",
     "S-Val": 0.0,
     "Talent_Mod": 0.9328,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Georgia",
@@ -301,7 +523,13 @@
     "Conference": "SEC",
     "S-Val": 0.0,
     "Talent_Mod": 1.9588,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Georgia Southern",
@@ -309,7 +537,13 @@
     "Conference": "Sun Belt",
     "S-Val": 0.0,
     "Talent_Mod": 0.6159,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Georgia State",
@@ -317,7 +551,13 @@
     "Conference": "Sun Belt",
     "S-Val": 0.0,
     "Talent_Mod": 0.8216,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Georgia Tech",
@@ -325,7 +565,13 @@
     "Conference": "ACC",
     "S-Val": 0.0,
     "Talent_Mod": 1.1856,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Hawai'i",
@@ -333,7 +579,13 @@
     "Conference": "Mountain West",
     "S-Val": 0.0,
     "Talent_Mod": 0.6989,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Houston",
@@ -341,7 +593,13 @@
     "Conference": "AAC",
     "S-Val": 0.0,
     "Talent_Mod": 1.1728,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Illinois",
@@ -349,7 +607,13 @@
     "Conference": "Big Ten",
     "S-Val": 0.0,
     "Talent_Mod": 1.1433,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Indiana",
@@ -357,7 +621,13 @@
     "Conference": "Big Ten",
     "S-Val": 0.0,
     "Talent_Mod": 1.1461,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Iowa",
@@ -365,7 +635,13 @@
     "Conference": "Big Ten",
     "S-Val": 0.0,
     "Talent_Mod": 1.2498,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Iowa State",
@@ -373,7 +649,13 @@
     "Conference": "Big 12",
     "S-Val": 0.0,
     "Talent_Mod": 1.1699,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Kansas",
@@ -381,7 +663,13 @@
     "Conference": "Big 12",
     "S-Val": 0.0,
     "Talent_Mod": 1.0507,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Kansas State",
@@ -389,7 +677,13 @@
     "Conference": "Big 12",
     "S-Val": 0.0,
     "Talent_Mod": 1.1123,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Kent State",
@@ -397,7 +691,13 @@
     "Conference": "MAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.7147,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Kentucky",
@@ -405,7 +705,13 @@
     "Conference": "SEC",
     "S-Val": 0.0,
     "Talent_Mod": 1.3619,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "LSU",
@@ -413,7 +719,13 @@
     "Conference": "SEC",
     "S-Val": 0.0,
     "Talent_Mod": 1.8082,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Louisiana Tech",
@@ -421,7 +733,13 @@
     "Conference": "C-USA",
     "S-Val": 0.0,
     "Talent_Mod": 0.9702,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Louisiana",
@@ -429,7 +747,13 @@
     "Conference": "Sun Belt",
     "S-Val": 0.0,
     "Talent_Mod": 0.7654,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Louisiana Monroe",
@@ -437,7 +761,13 @@
     "Conference": "Sun Belt",
     "S-Val": 0.0,
     "Talent_Mod": 0.6637,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Louisville",
@@ -445,7 +775,13 @@
     "Conference": "ACC",
     "S-Val": 0.0,
     "Talent_Mod": 1.2846,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Marshall",
@@ -453,7 +789,13 @@
     "Conference": "C-USA",
     "S-Val": 0.0,
     "Talent_Mod": 0.9176,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Maryland",
@@ -461,7 +803,13 @@
     "Conference": "Big Ten",
     "S-Val": 0.0,
     "Talent_Mod": 1.475,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "UMass",
@@ -469,7 +817,13 @@
     "Conference": "Independent",
     "S-Val": 0.0,
     "Talent_Mod": 0.7902,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Memphis",
@@ -477,7 +831,13 @@
     "Conference": "AAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.9755,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Miami",
@@ -485,7 +845,13 @@
     "Conference": "ACC",
     "S-Val": 0.0,
     "Talent_Mod": 1.5315,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Miami (OH)",
@@ -493,7 +859,13 @@
     "Conference": "MAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.8559,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Michigan",
@@ -501,7 +873,13 @@
     "Conference": "Big Ten",
     "S-Val": 0.0,
     "Talent_Mod": 1.7522,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Michigan State",
@@ -509,7 +887,13 @@
     "Conference": "Big Ten",
     "S-Val": 0.0,
     "Talent_Mod": 1.3387,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Middle Tennessee",
@@ -517,7 +901,13 @@
     "Conference": "C-USA",
     "S-Val": 0.0,
     "Talent_Mod": 0.8416,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Minnesota",
@@ -525,7 +915,13 @@
     "Conference": "Big Ten",
     "S-Val": 0.0,
     "Talent_Mod": 1.1967,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Ole Miss",
@@ -533,7 +929,13 @@
     "Conference": "SEC",
     "S-Val": 0.0,
     "Talent_Mod": 1.4914,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Mississippi State",
@@ -541,7 +943,13 @@
     "Conference": "SEC",
     "S-Val": 0.0,
     "Talent_Mod": 1.4832,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Missouri",
@@ -549,7 +957,13 @@
     "Conference": "SEC",
     "S-Val": 0.0,
     "Talent_Mod": 1.2093,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Navy",
@@ -557,7 +971,13 @@
     "Conference": "AAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.7097,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Nebraska",
@@ -565,7 +985,13 @@
     "Conference": "Big Ten",
     "S-Val": 0.0,
     "Talent_Mod": 1.4451,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Nevada",
@@ -573,7 +999,13 @@
     "Conference": "Mountain West",
     "S-Val": 0.0,
     "Talent_Mod": 0.8786,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "UNLV",
@@ -581,7 +1013,13 @@
     "Conference": "Mountain West",
     "S-Val": 0.0,
     "Talent_Mod": 0.8143,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "New Mexico",
@@ -589,7 +1027,13 @@
     "Conference": "Mountain West",
     "S-Val": 0.0,
     "Talent_Mod": 0.837,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "New Mexico State",
@@ -597,7 +1041,13 @@
     "Conference": "Independent",
     "S-Val": 0.0,
     "Talent_Mod": 0.5066,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "North Carolina",
@@ -605,7 +1055,13 @@
     "Conference": "ACC",
     "S-Val": 0.0,
     "Talent_Mod": 1.3989,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "NC State",
@@ -613,7 +1069,13 @@
     "Conference": "ACC",
     "S-Val": 0.0,
     "Talent_Mod": 1.2789,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "North Texas",
@@ -621,7 +1083,13 @@
     "Conference": "C-USA",
     "S-Val": 0.0,
     "Talent_Mod": 0.7489,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Northern Illinois",
@@ -629,7 +1097,13 @@
     "Conference": "MAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.8784,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Northwestern",
@@ -637,7 +1111,13 @@
     "Conference": "Big Ten",
     "S-Val": 0.0,
     "Talent_Mod": 1.2372,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Notre Dame",
@@ -645,7 +1125,13 @@
     "Conference": "Independent",
     "S-Val": 0.0,
     "Talent_Mod": 1.7227,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Ohio",
@@ -653,7 +1139,13 @@
     "Conference": "MAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.7034,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Ohio State",
@@ -661,7 +1153,13 @@
     "Conference": "Big Ten",
     "S-Val": 0.0,
     "Talent_Mod": 2,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Oklahoma",
@@ -669,7 +1167,13 @@
     "Conference": "Big 12",
     "S-Val": 0.0,
     "Talent_Mod": 1.7145,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Oklahoma State",
@@ -677,7 +1181,13 @@
     "Conference": "Big 12",
     "S-Val": 0.0,
     "Talent_Mod": 1.3106,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Old Dominion",
@@ -685,7 +1195,13 @@
     "Conference": "C-USA",
     "S-Val": 0.0,
     "Talent_Mod": 0.677,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Oregon",
@@ -693,7 +1209,13 @@
     "Conference": "Pac-12",
     "S-Val": 0.0,
     "Talent_Mod": 1.4138,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Oregon State",
@@ -701,7 +1223,13 @@
     "Conference": "Pac-12",
     "S-Val": 0.0,
     "Talent_Mod": 1.0878,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Penn State",
@@ -709,7 +1237,13 @@
     "Conference": "Big Ten",
     "S-Val": 0.0,
     "Talent_Mod": 1.6951,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Pittsburgh",
@@ -717,7 +1251,13 @@
     "Conference": "ACC",
     "S-Val": 0.0,
     "Talent_Mod": 1.2963,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Purdue",
@@ -725,7 +1265,13 @@
     "Conference": "Big Ten",
     "S-Val": 0.0,
     "Talent_Mod": 1.0576,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Rice",
@@ -733,7 +1279,13 @@
     "Conference": "C-USA",
     "S-Val": 0.0,
     "Talent_Mod": 0.7622,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Rutgers",
@@ -741,7 +1293,13 @@
     "Conference": "Big Ten",
     "S-Val": 0.0,
     "Talent_Mod": 1.1282,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "San Diego State",
@@ -749,7 +1307,13 @@
     "Conference": "Mountain West",
     "S-Val": 0.0,
     "Talent_Mod": 0.9603,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "San Jose State",
@@ -757,7 +1321,13 @@
     "Conference": "Mountain West",
     "S-Val": 0.0,
     "Talent_Mod": 0.875,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "South Alabama",
@@ -765,7 +1335,13 @@
     "Conference": "Sun Belt",
     "S-Val": 0.0,
     "Talent_Mod": 0.8011,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "South Carolina",
@@ -773,7 +1349,13 @@
     "Conference": "SEC",
     "S-Val": 0.0,
     "Talent_Mod": 1.5239,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "South Florida",
@@ -781,7 +1363,13 @@
     "Conference": "AAC",
     "S-Val": 0.0,
     "Talent_Mod": 1.1147,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "USC",
@@ -789,7 +1377,13 @@
     "Conference": "Pac-12",
     "S-Val": 0.0,
     "Talent_Mod": 1.8971,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "SMU",
@@ -797,7 +1391,13 @@
     "Conference": "AAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.9864,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Southern Mississippi",
@@ -805,7 +1405,13 @@
     "Conference": "C-USA",
     "S-Val": 0.0,
     "Talent_Mod": 0.787,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Stanford",
@@ -813,7 +1419,13 @@
     "Conference": "Pac-12",
     "S-Val": 0.0,
     "Talent_Mod": 1.5984,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Syracuse",
@@ -821,7 +1433,13 @@
     "Conference": "ACC",
     "S-Val": 0.0,
     "Talent_Mod": 1.1586,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "TCU",
@@ -829,7 +1447,13 @@
     "Conference": "Big 12",
     "S-Val": 0.0,
     "Talent_Mod": 1.3652,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Temple",
@@ -837,7 +1461,13 @@
     "Conference": "AAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.9719,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Tennessee",
@@ -845,7 +1475,13 @@
     "Conference": "SEC",
     "S-Val": 0.0,
     "Talent_Mod": 1.6803,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Texas",
@@ -853,7 +1489,13 @@
     "Conference": "Big 12",
     "S-Val": 0.0,
     "Talent_Mod": 1.7499,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Texas A&M",
@@ -861,7 +1503,13 @@
     "Conference": "SEC",
     "S-Val": 0.0,
     "Talent_Mod": 1.637,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Texas State",
@@ -869,7 +1517,13 @@
     "Conference": "Sun Belt",
     "S-Val": 0.0,
     "Talent_Mod": 0.6148,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Texas Tech",
@@ -877,7 +1531,13 @@
     "Conference": "Big 12",
     "S-Val": 0.0,
     "Talent_Mod": 1.1411,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "UTEP",
@@ -885,7 +1545,13 @@
     "Conference": "C-USA",
     "S-Val": 0.0,
     "Talent_Mod": 0.7026,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "UT San Antonio",
@@ -893,7 +1559,13 @@
     "Conference": "C-USA",
     "S-Val": 0.0,
     "Talent_Mod": 0.8233,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Toledo",
@@ -901,7 +1573,13 @@
     "Conference": "MAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.9427,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Troy",
@@ -909,7 +1587,13 @@
     "Conference": "Sun Belt",
     "S-Val": 0.0,
     "Talent_Mod": 0.716,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Tulane",
@@ -917,7 +1601,13 @@
     "Conference": "AAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.9049,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Tulsa",
@@ -925,7 +1615,13 @@
     "Conference": "AAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.748,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Utah",
@@ -933,7 +1629,13 @@
     "Conference": "Pac-12",
     "S-Val": 0.0,
     "Talent_Mod": 1.2082,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Utah State",
@@ -941,7 +1643,13 @@
     "Conference": "Mountain West",
     "S-Val": 0.0,
     "Talent_Mod": 0.7668,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Vanderbilt",
@@ -949,7 +1657,13 @@
     "Conference": "SEC",
     "S-Val": 0.0,
     "Talent_Mod": 1.2435,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Virginia",
@@ -957,7 +1671,13 @@
     "Conference": "ACC",
     "S-Val": 0.0,
     "Talent_Mod": 1.1021,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Virginia Tech",
@@ -965,7 +1685,13 @@
     "Conference": "ACC",
     "S-Val": 0.0,
     "Talent_Mod": 1.373,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Wake Forest",
@@ -973,7 +1699,13 @@
     "Conference": "ACC",
     "S-Val": 0.0,
     "Talent_Mod": 1.0677,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Washington",
@@ -981,7 +1713,13 @@
     "Conference": "Pac-12",
     "S-Val": 0.0,
     "Talent_Mod": 1.5704,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Washington State",
@@ -989,7 +1727,13 @@
     "Conference": "Pac-12",
     "S-Val": 0.0,
     "Talent_Mod": 1.1272,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "West Virginia",
@@ -997,7 +1741,13 @@
     "Conference": "Big 12",
     "S-Val": 0.0,
     "Talent_Mod": 1.3145,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Western Kentucky",
@@ -1005,7 +1755,13 @@
     "Conference": "C-USA",
     "S-Val": 0.0,
     "Talent_Mod": 0.7181,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Western Michigan",
@@ -1013,7 +1769,13 @@
     "Conference": "MAC",
     "S-Val": 0.0,
     "Talent_Mod": 0.8987,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Wisconsin",
@@ -1021,7 +1783,13 @@
     "Conference": "Big Ten",
     "S-Val": 0.0,
     "Talent_Mod": 1.3278,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   },
   {
     "School": "Wyoming",
@@ -1029,6 +1797,12 @@
     "Conference": "Mountain West",
     "S-Val": 0.0,
     "Talent_Mod": 0.7078,
-    "S-Val-History": {}
+    "History": {
+      "SVal": {},
+      "Off": {},
+      "Def": {}
+    },
+    "Off-SVal": 0.0,
+    "Def-SVal": 0.0
   }
 ]

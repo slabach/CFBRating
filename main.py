@@ -30,6 +30,7 @@ class App:
         self.model_game_turnover_margin = 1.5
 
     def get_weekly_games(self):
+        print(f"Getting week {self.week_num} games...")
 
         with open(self.teamsPath, "r") as t:
             teams_json = json.load(t)
@@ -56,7 +57,7 @@ class App:
             page_text = requests.get(req_url).text
             page_json = json.loads(page_text)
 
-            weekly_result_path = "lib/2018/{0}/Week{1}.json".format(t["School"], self.week_num)
+            weekly_result_path = "lib/{2}/{0}/Week{1}.json".format(t["School"], self.week_num, self.cur_year)
 
             with open(weekly_result_path, 'w') as output_file:
                 json.dump(page_json, output_file, indent=2)
@@ -79,9 +80,9 @@ class App:
             if perc_from_top == 1:
                 multiplier = 2.0
             elif 0.950 <= perc_from_top < 1.000:
-                multiplier = 1.950
+                multiplier = 1.95
             elif 0.925 <= perc_from_top < 0.950:
-                multiplier = 1.90
+                multiplier = 1.9
             elif 0.920 <= perc_from_top < 0.925:
                 multiplier = 1.85
             elif 0.910 <= perc_from_top < 0.920:
@@ -89,19 +90,19 @@ class App:
             elif 0.900 <= perc_from_top < 0.910:
                 multiplier = 1.75
             elif 0.890 <= perc_from_top < 0.900:
-                multiplier = 1.7
-            elif 0.880 <= perc_from_top < 0.890:
                 multiplier = 1.65
-            elif 0.870 <= perc_from_top < 0.880:
+            elif 0.880 <= perc_from_top < 0.890:
                 multiplier = 1.55
+            elif 0.870 <= perc_from_top < 0.880:
+                multiplier = 1.5
             elif 0.850 <= perc_from_top < 0.870:
                 multiplier = 1.45
             elif 0.750 <= perc_from_top < 0.850:
                 multiplier = 1.35
             elif 0.690 <= perc_from_top < 0.750:
-                multiplier = 1.30
-            elif 0.05 <= perc_from_top < 0.690:
                 multiplier = 1.25
+            elif 0.05 <= perc_from_top < 0.690:
+                multiplier = 1.15
             else:
                 pass
             #endregion
@@ -116,16 +117,17 @@ class App:
                 updated_talent_mod = t['Talent_Mod']
 
             if (t['Conference'] not in power5_conf) and (t['School'] != 'Notre Dame'):
-                updated_talent_mod = updated_talent_mod * .65
+                updated_talent_mod = updated_talent_mod * .675
 
             t['Talent_Mod'] = updated_talent_mod
 
         with open(self.output_path, "w") as output_file:
             json.dump(teams_json, output_file, indent=2)
 
-        print("Complete")
+        # print("Complete")
 
     def sval_calc(self):
+        print("Calculating SVal")
 
         def opp_strength(name):
 
@@ -138,7 +140,7 @@ class App:
                     if name == entry['School']:
                         return entry['Talent_Mod']
                 else:
-                    return 0.2
+                    return 0.175
 
         with open(self.teamsPath, "r") as t:
             teams_json = json.load(t)
@@ -146,7 +148,7 @@ class App:
         for t in teams_json:
             team = t["School"]
 
-            team_game_path = "lib/2018/{0}/Week{1}.json".format(team, self.week_num)
+            team_game_path = "lib/{2}/{0}/Week{1}.json".format(team, self.week_num, self.cur_year)
 
             with open(team_game_path, "r") as tm:
                 game_json = json.load(tm)
@@ -358,6 +360,7 @@ class App:
                     m_sval = (opponent_str + m_sval_margin + m_sval_penalties + m_sval_turnovers)
                 # endregion
 
+                #region write values
                 if ((.4 * o_sval) + (.4 * d_sval) + (.2 * m_sval)) > 1:
                     sval = 1.0000
                 else:
@@ -371,34 +374,48 @@ class App:
                     pass
 
                 key_var = "Week" + str(self.week_num)
-                t['S-Val-History'][key_var] = sval
+                t['History']['SVal'][key_var] = sval
+
+                if opponent_str_mod < 1.2:
+                    t['History']['Off'][key_var] = o_sval * (1-((1-(opponent_str_mod/1.2))*0.15))
+                    t['History']['Def'][key_var] = d_sval * (1-((1-(opponent_str_mod/1.2))*0.15))
+                else:
+                    t['History']['Off'][key_var] = o_sval
+                    t['History']['Def'][key_var] = d_sval
 
                 acm_sval = 0.0
+                acm_o_sval = 0.0
+                acm_d_sval = 0.0
                 i = 1
 
                 while i <= self.week_num:
                     key_variable = "Week" + str(i)
 
-                    if key_variable in t['S-Val-History']:
-                        acm_sval = acm_sval + t['S-Val-History'][key_variable]
+                    if key_variable in t['History']['SVal']:
+                        acm_sval = acm_sval + t['History']['SVal'][key_variable]
+                        acm_o_sval = acm_o_sval + t['History']['Off'][key_variable]
+                        acm_d_sval = acm_d_sval + t['History']['Def'][key_variable]
                         i = i + 1
                     else:
                         i = i + 1
 
                 if team_game_margin < 0:
-                    t['S-Val'] = (acm_sval / len(t['S-Val-History'])) * .985
+                    t['S-Val'] = (acm_sval / len(t['History']['SVal'])) * .985
                 else:
-                    t['S-Val'] = (acm_sval / len(t['S-Val-History']))
+                    t['S-Val'] = (acm_sval / len(t['History']['SVal']))
 
-                print_sval = (acm_sval / len(t['S-Val-History']))
+                t['Off-SVal'] = (acm_o_sval / len(t['History']['SVal']))
+                t['Def-SVal'] = (acm_d_sval / len(t['History']['SVal']))
 
-                # t['Talent_Mod'] = recalc_talent_mod(print_sval)
+                # print_sval = (acm_sval / len(t['History']['SVal']))
+                #endregion
 
-                # print(len(t['S-Val-History']))
-                print(f"{team}, {print_sval}, {o_sval}, {d_sval}, {m_sval}")
+                # print(f"{team}, {print_sval}, {o_sval}, {d_sval}, {m_sval}")
 
         with open(self.output_path, "w") as output_file:
             json.dump(teams_json, output_file, indent=2)
+
+        print("Complete")
 
     # region old code
     # def create_file_structure(self):
@@ -406,7 +423,7 @@ class App:
     #         teams_json = json.load(t)
     #
     #     for t in teams_json:
-    #         path = "lib/2018/"+t["School"]
+    #         path = "lib/"+str(self.cur_year)+"/"+t["School"]
     #
     #         try:
     #             os.mkdir(path)
@@ -457,8 +474,8 @@ class App:
     #     for t in teams_json:
     #         # school_name = t['School']
     #
-    #         t['S-Val-History'] = {}
-    #         t['S-Val'] = 0.0
+    #         t['Off-Sval'] = 0.0
+    #         t['Def-SVal'] = 0.0
     #
     #     with open(self.output_path, 'w') as output_file:
     #         json.dump(teams_json, output_file, indent=2)
@@ -473,12 +490,19 @@ def main():
     year = 2018
     week_number = 21
 
-    a = App("lib/2018/teams-fbs.json", "lib/2018/output.json", year, week_number)
-    # a.get_weekly_games(week_number)
+    a = App("lib/"+str(year)+"/teams-fbs.json", "lib/"+str(year)+"/teams-fbs.json", year, week_number)
+    # a.get_weekly_games()
+
+    # week_number = week_number + 1
+
     a.sval_calc()
 
     if week_number >= 1:
         a.recalc_talent_mod()
+
+    # a.create_file_structure()
+
+    # a.update_db()
 
     # a.update_teamsjson()
 
