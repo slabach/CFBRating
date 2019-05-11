@@ -1,0 +1,518 @@
+[
+ {
+   "School": "Alabama",
+   "Talent_Mod": 2.0000
+ },
+ {
+   "School": "Georgia",
+   "Talent_Mod": 1.9864
+ },
+ {
+   "School": "Oklahoma",
+   "Talent_Mod": 1.9592
+ },
+ {
+   "School": "Ohio State",
+   "Talent_Mod": 1.9492
+ },
+ {
+   "School": "Clemson",
+   "Talent_Mod": 1.9446
+ },
+ {
+   "School": "LSU",
+   "Talent_Mod": 1.9341
+ },
+ {
+   "School": "Florida",
+   "Talent_Mod": 1.9179
+ },
+ {
+   "School": "Michigan",
+   "Talent_Mod": 1.9174
+ },
+ {
+   "School": "Notre Dame",
+   "Talent_Mod": 1.9114
+ },
+ {
+   "School": "Texas A&M",
+   "Talent_Mod": 1.8978
+ },
+ {
+   "School": "Penn State",
+   "Talent_Mod": 1.8887
+ },
+ {
+   "School": "Washington",
+   "Talent_Mod": 1.8711
+ },
+ {
+   "School": "Mississippi State",
+   "Talent_Mod": 1.8344
+ },
+ {
+   "School": "Texas",
+   "Talent_Mod": 1.8314
+ },
+ {
+   "School": "Oregon",
+   "Talent_Mod": 1.8193
+ },
+ {
+   "School": "Auburn",
+   "Talent_Mod": 1.8163
+ },
+ {
+   "School": "Miami",
+   "Talent_Mod": 1.782
+ },
+ {
+   "School": "NC State",
+   "Talent_Mod": 1.7548
+ },
+ {
+   "School": "South Carolina",
+   "Talent_Mod": 1.7518
+ },
+ {
+   "School": "Stanford",
+   "Talent_Mod": 1.7493
+ },
+ {
+   "School": "Kentucky",
+   "Talent_Mod": 1.7201
+ },
+ {
+   "School": "Iowa",
+   "Talent_Mod": 1.7196
+ },
+ {
+   "School": "Missouri",
+   "Talent_Mod": 1.698
+ },
+ {
+   "School": "Michigan State",
+   "Talent_Mod": 1.6959
+ },
+ {
+   "School": "West Virginia",
+   "Talent_Mod": 1.6733
+ },
+ {
+   "School": "Arizona State",
+   "Talent_Mod": 1.6557
+ },
+ {
+   "School": "Purdue",
+   "Talent_Mod": 1.6542
+ },
+ {
+   "School": "Wisconsin",
+   "Talent_Mod": 1.6542
+ },
+ {
+   "School": "Utah",
+   "Talent_Mod": 1.6532
+ },
+ {
+   "School": "USC",
+   "Talent_Mod": 1.627
+ },
+ {
+   "School": "Nebraska",
+   "Talent_Mod": 1.6255
+ },
+ {
+   "School": "Virginia Tech",
+   "Talent_Mod": 1.6073
+ },
+ {
+   "School": "TCU",
+   "Talent_Mod": 1.5988
+ },
+ {
+   "School": "Virginia",
+   "Talent_Mod": 1.5812
+ },
+ {
+   "School": "Florida State",
+   "Talent_Mod": 1.5807
+ },
+ {
+   "School": "Tennessee",
+   "Talent_Mod": 1.5782
+ },
+ {
+   "School": "Oklahoma State",
+   "Talent_Mod": 1.5706
+ },
+ {
+   "School": "Iowa State",
+   "Talent_Mod": 1.559
+ },
+ {
+   "School": "Baylor",
+   "Talent_Mod": 1.5525
+ },
+ {
+   "School": "Ole Miss",
+   "Talent_Mod": 1.5464
+ },
+ {
+   "School": "Minnesota",
+   "Talent_Mod": 1.5449
+ },
+ {
+   "School": "Syracuse",
+   "Talent_Mod": 1.5439
+ },
+ {
+   "School": "Georgia Tech",
+   "Talent_Mod": 1.5147
+ },
+ {
+   "School": "Washington State",
+   "Talent_Mod": 1.5122
+ },
+ {
+   "School": "Northwestern",
+   "Talent_Mod": 1.5067
+ },
+ {
+   "School": "California",
+   "Talent_Mod": 1.4906
+ },
+ {
+   "School": "North Carolina",
+   "Talent_Mod": 1.482
+ },
+ {
+   "School": "Indiana",
+   "Talent_Mod": 1.481
+ },
+ {
+   "School": "Arkansas",
+   "Talent_Mod": 1.4765
+ },
+ {
+   "School": "Vanderbilt",
+   "Talent_Mod": 1.4679
+ },
+ {
+   "School": "Colorado",
+   "Talent_Mod": 1.4644
+ },
+ {
+   "School": "Duke",
+   "Talent_Mod": 1.4528
+ },
+ {
+   "School": "UCLA",
+   "Talent_Mod": 1.4528
+ },
+ {
+   "School": "Boston College",
+   "Talent_Mod": 1.4322
+ },
+ {
+   "School": "UCF",
+   "Talent_Mod": 1.428
+ },
+ {
+   "School": "Pittsburgh",
+   "Talent_Mod": 1.3582
+ },
+ {
+   "School": "Maryland",
+   "Talent_Mod": 1.3496
+ },
+ {
+   "School": "Wake Forest",
+   "Talent_Mod": 1.3357
+ },
+ {
+   "School": "Boise State",
+   "Talent_Mod": 1.3149
+ },
+ {
+   "School": "Texas Tech",
+   "Talent_Mod": 1.3142
+ },
+ {
+   "School": "Arizona",
+   "Talent_Mod": 1.2931
+ },
+ {
+   "School": "Cincinnati",
+   "Talent_Mod": 1.2499
+ },
+ {
+   "School": "Kansas State",
+   "Talent_Mod": 1.2477
+ },
+ {
+   "School": "Illinois",
+   "Talent_Mod": 1.22
+ },
+ {
+   "School": "Kansas",
+   "Talent_Mod": 1.1817
+ },
+ {
+   "School": "Oregon State",
+   "Talent_Mod": 1.1729
+ },
+ {
+   "School": "Memphis",
+   "Talent_Mod": 1.1716
+ },
+ {
+   "School": "North Texas",
+   "Talent_Mod": 1.1639
+ },
+ {
+   "School": "Louisville",
+   "Talent_Mod": 1.1607
+ },
+ {
+   "School": "Fresno State",
+   "Talent_Mod": 1.1583
+ },
+ {
+   "School": "Rutgers",
+   "Talent_Mod": 1.1444
+ },
+ {
+   "School": "Houston",
+   "Talent_Mod": 1.1442
+ },
+ {
+   "School": "Toledo",
+   "Talent_Mod": 1.1189
+ },
+ {
+   "School": "BYU",
+   "Talent_Mod": 1.1176
+ },
+ {
+   "School": "Troy",
+   "Talent_Mod": 1.1121
+ },
+ {
+   "School": "Arkansas State",
+   "Talent_Mod": 1.1112
+ },
+ {
+   "School": "Florida International",
+   "Talent_Mod": 1.1099
+ },
+ {
+   "School": "Appalachian State",
+   "Talent_Mod": 1.0954
+ },
+ {
+   "School": "Utah State",
+   "Talent_Mod": 1.0269
+ },
+ {
+   "School": "Army",
+   "Talent_Mod": 1.0124
+ },
+ {
+   "School": "Southern Mississippi",
+   "Talent_Mod": 1.0088
+ },
+ {
+   "School": "Ohio",
+   "Talent_Mod": 1.008
+ },
+ {
+   "School": "Marshall",
+   "Talent_Mod": 1.0044
+ },
+ {
+   "School": "Temple",
+   "Talent_Mod": 1.0004
+ },
+ {
+   "School": "South Florida",
+   "Talent_Mod": 0.9887
+ },
+ {
+   "School": "UAB",
+   "Talent_Mod": 0.985
+ },
+ {
+   "School": "Florida Atlantic",
+   "Talent_Mod": 0.9822
+ },
+ {
+   "School": "Middle Tennessee",
+   "Talent_Mod": 0.9609
+ },
+ {
+   "School": "Louisiana Tech",
+   "Talent_Mod": 0.9557
+ },
+ {
+   "School": "SMU",
+   "Talent_Mod": 0.9496
+ },
+ {
+   "School": "Georgia Southern",
+   "Talent_Mod": 0.9448
+ },
+ {
+   "School": "Miami (OH)",
+   "Talent_Mod": 0.9448
+ },
+ {
+   "School": "San Diego State",
+   "Talent_Mod": 0.9436
+ },
+ {
+   "School": "Western Michigan",
+   "Talent_Mod": 0.9287
+ },
+ {
+   "School": "Louisiana",
+   "Talent_Mod": 0.925
+ },
+ {
+   "School": "Nevada",
+   "Talent_Mod": 0.8924
+ },
+ {
+   "School": "Buffalo",
+   "Talent_Mod": 0.892
+ },
+ {
+   "School": "Tulane",
+   "Talent_Mod": 0.8912
+ },
+ {
+   "School": "Colorado State",
+   "Talent_Mod": 0.8787
+ },
+ {
+   "School": "East Carolina",
+   "Talent_Mod": 0.8723
+ },
+ {
+   "School": "Northern Illinois",
+   "Talent_Mod": 0.8594
+ },
+ {
+   "School": "Western Kentucky",
+   "Talent_Mod": 0.8381
+ },
+ {
+   "School": "Air Force",
+   "Talent_Mod": 0.8268
+ },
+ {
+   "School": "Wyoming",
+   "Talent_Mod": 0.8268
+ },
+ {
+   "School": "Hawai'i",
+   "Talent_Mod": 0.795
+ },
+ {
+   "School": "Tulsa",
+   "Talent_Mod": 0.7934
+ },
+ {
+   "School": "San Jose State",
+   "Talent_Mod": 0.7893
+ },
+ {
+   "School": "UT San Antonio",
+   "Talent_Mod": 0.7893
+ },
+ {
+   "School": "Eastern Michigan",
+   "Talent_Mod": 0.7648
+ },
+ {
+   "School": "UNLV",
+   "Talent_Mod": 0.7575
+ },
+ {
+   "School": "Kent State",
+   "Talent_Mod": 0.7398
+ },
+ {
+   "School": "Georgia State",
+   "Talent_Mod": 0.7064
+ },
+ {
+   "School": "UMass",
+   "Talent_Mod": 0.7023
+ },
+ {
+   "School": "Navy",
+   "Talent_Mod": 0.6979
+ },
+ {
+   "School": "Ball State",
+   "Talent_Mod": 0.6935
+ },
+ {
+   "School": "Central Michigan",
+   "Talent_Mod": 0.6931
+ },
+ {
+   "School": "Charlotte",
+   "Talent_Mod": 0.6794
+ },
+ {
+   "School": "Bowling Green",
+   "Talent_Mod": 0.6782
+ },
+ {
+   "School": "Old Dominion",
+   "Talent_Mod": 0.6774
+ },
+ {
+   "School": "South Alabama",
+   "Talent_Mod": 0.6649
+ },
+ {
+   "School": "Louisiana Monroe",
+   "Talent_Mod": 0.6645
+ },
+ {
+   "School": "Connecticut",
+   "Talent_Mod": 0.6504
+ },
+ {
+   "School": "Akron",
+   "Talent_Mod": 0.648
+ },
+ {
+   "School": "New Mexico",
+   "Talent_Mod": 0.6448
+ },
+ {
+   "School": "Rice",
+   "Talent_Mod": 0.6411
+ },
+ {
+   "School": "Texas State",
+   "Talent_Mod": 0.6331
+ },
+ {
+   "School": "Coastal Carolina",
+   "Talent_Mod": 0.6282
+ },
+ {
+   "School": "UTEP",
+   "Talent_Mod": 0.6037
+ },
+ {
+   "School": "New Mexico State",
+   "Talent_Mod": 0.596
+ }
+]

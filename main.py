@@ -481,17 +481,41 @@ class App:
     #         json.dump(teams_json, output_file, indent=2)
     #
     #     print('Complete')
+    #
+    #
+    # def new_year_talent(self):
+    #
+    #     def find_new_talent_mod(name):
+    #         with open("lib/"+str(self.cur_year)+"/new_year_talent.json", "r") as nytm:
+    #             talent_json = json.load(nytm)
+    #
+    #         for entry in talent_json:
+    #             if any(entry['School'] == name for entry in talent_json):
+    #
+    #                 if name == entry['School']:
+    #                     return entry['Talent_Mod']
+    #
+    #     with open(self.teamsPath, "r") as teamlist:
+    #         team_json = json.load(teamlist)
+    #
+    #     for team in team_json:
+    #         new_talent_mod = float(find_new_talent_mod(team['School']))
+    #         team['Talent_Mod'] = new_talent_mod
+    #         print(f"{team['School']}, {new_talent_mod}")
+    #
+    #     with open(self.output_path, "w") as output_file:
+    #         json.dump(team_json, output_file, indent=2)
     # endregion
 
 
 def main():
-    # now = datetime.datetime.now()
-    # year = now.year
-    year = 2018
-    week_number = 21
+    now = datetime.datetime.now()
+    year = now.year
+    # year = 2019
+    week_number = 1
 
     a = App("lib/"+str(year)+"/teams-fbs.json", "lib/"+str(year)+"/teams-fbs.json", year, week_number)
-    # a.get_weekly_games()
+    a.get_weekly_games()
 
     # week_number = week_number + 1
 
@@ -500,7 +524,7 @@ def main():
     if week_number >= 1:
         a.recalc_talent_mod()
 
-    # a.create_file_structure()
+    # a.new_year_talent()
 
     # a.update_db()
 
