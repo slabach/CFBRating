@@ -3,8 +3,8 @@ import sys, os, json, requests, re, datetime, statistics
 from bs4 import BeautifulSoup
 
 # other modules
-import wikipedia
-import numpy as np
+# import wikipedia
+# import numpy as np
 
 
 class App:
@@ -49,7 +49,7 @@ class App:
 
             if self.week_num == 20:
                 req_url = "https://api.collegefootballdata.com/games/teams?year={0}&seasonType=postseason&team={2}".format(
-                    self.cur_year, self.week_num, team)
+                    self.cur_year, team)
             else:
                 req_url = "https://api.collegefootballdata.com/games/teams?year={0}&week={1}&seasonType=regular&team={2}".format(
                     self.cur_year, self.week_num, team)
@@ -127,7 +127,7 @@ class App:
         # print("Complete")
 
     def sval_calc(self):
-        print("Calculating SVal")
+        print(f"Calculating Week {self.week_num} SVal")
 
         def opp_strength(name):
 
@@ -175,6 +175,9 @@ class App:
 
                         if i['category'] == 'totalYards':
                             team_o_yrds_total = int(i["stat"])
+                            
+                        # if i['category'] == 'turnovers':
+                        #     team_o_turnovers_lost = float(i["stat"])
 
                         if i['category'] == 'possessionTime':
                             team_o_possession_time = float((i["stat"]).split(":")[0]) + \
@@ -194,6 +197,9 @@ class App:
 
                         if i['category'] == 'totalYards':
                             team_d_yrds_total = int(i["stat"])
+
+                        # if i['category'] == 'turnovers':
+                        #     team_d_turnovers_won = float(i["stat"])
 
                         if i['category'] == 'possessionTime':
                             team_d_possession_time = float((i["stat"]).split(":")[0]) + \
@@ -233,6 +239,9 @@ class App:
 
                         if i['category'] == 'totalYards':
                             team_o_yrds_total = int(i["stat"])
+                               
+                        # if i['category'] == 'turnovers':
+                        #     team_o_turnovers_lost = float(i["stat"])
 
                         if i['category'] == 'possessionTime':
                             team_o_possession_time = float((i["stat"]).split(":")[0]) + \
@@ -252,6 +261,9 @@ class App:
 
                         if i['category'] == 'totalYards':
                             team_d_yrds_total = int(i["stat"])
+                            
+                        # if i['category'] == 'turnovers':
+                        #     team_d_turnovers_won = float(i["stat"])
 
                         if i['category'] == 'possessionTime':
                             team_d_possession_time = float((i["stat"]).split(":")[0]) + \
@@ -417,21 +429,104 @@ class App:
 
         print("Complete")
 
+    def win_probability(self):
+        def last_year(name):
+            last_year_path = "lib/{0}/teams-fbs.json".format(self.cur_year-1)
+
+            with open(last_year_path, "r") as ostr:
+                past_json = json.load(ostr)
+
+            for entry in past_json:
+                if any(entry['School'] == name for entry in past_json):
+
+                    if name == entry['School']:
+                        return entry['S-Val']
+                else:
+                    return 0.35
+        
+        def opp_talent_find(name):
+            with open(self.teamsPath, "r") as ostr:
+                past_json = json.load(ostr)
+
+            for entry in past_json:
+                if any(entry['School'] == name for entry in past_json):
+
+                    if name == entry['School']:
+                        return entry['Talent_Mod']
+                else:
+                    return 0.35
+
+        print(f"Week {self.week_num} Win Probability...")
+
+        with open(self.teamsPath, "r") as t:
+            teams_json = json.load(t)
+
+        for t in teams_json:
+            url_team = t["School"]
+            team = t["School"]
+
+            if " " in url_team:
+                url_team = url_team.replace(" ", "%20")
+
+            if "&" in url_team:
+                url_team = url_team.replace("&", "%26")
+
+            if "Jose" in url_team:
+                url_team = url_team.replace("Jose", "Jos%C3%A9")
+
+            req_url = "https://api.collegefootballdata.com/games?year={0}&week={1}&seasonType=regular&team={2}".format(
+                self.cur_year, self.week_num, url_team)
+
+            page_text = requests.get(req_url).text
+            page_json = json.loads(page_text)
+            # print(page_json)
+
+            for gm in page_json:
+                
+                if gm["home_team"] == team:
+                    opponent = gm["away_team"]
+                    is_away = False
+                else: 
+                    opponent = gm["home_team"]
+                    is_away = True
+
+                opp_last_year_sval = (last_year(opponent) * 1000) * 2
+                team_last_year_sval = (last_year(team) * 1000) * 2
+                team_talent = float(t["Talent_Mod"]) * 50
+                opp_talent = opp_talent_find(opponent) * 50
+                opp_val = opp_last_year_sval + opp_talent
+                team_val = team_last_year_sval + team_talent
+
+                if is_away:
+                    win_perc = 1 / (1 + (pow(10, 
+                                        ( ( ( opp_val + 50 ) - ( team_val ) ) / 400)
+                                    )))
+
+                    print(f"{team},{win_perc}, (@ {opponent})")
+                else:
+                    win_perc = 1 / (1 + (pow(10, 
+                                        ( ( ( opp_val ) - ( team_val + 50 ) ) / 400) 
+                                    )))
+
+                    print(f"{team},{win_perc}, (vs {opponent})")
+
+        print("Complete")
+
     # region old code
     # def create_file_structure(self):
     #     with open(self.teamsPath, "r") as t:
     #         teams_json = json.load(t)
-    #
+    
     #     for t in teams_json:
     #         path = "lib/"+str(self.cur_year)+"/"+t["School"]
-    #
+    
     #         try:
     #             os.mkdir(path)
     #         except OSError:
     #             print ("Creation of the directory %s failed" % path)
     #         else:
     #             print ("Successfully created the directory %s " % path)
-    #
+    
     #     print('Completed')
     #
     # def get_school_conferences(self):
@@ -511,24 +606,24 @@ class App:
 def main():
     now = datetime.datetime.now()
     year = now.year
-    # year = 2019
+    # year = 2018
     week_number = 1
 
-    a = App("lib/"+str(year)+"/teams-fbs.json", "lib/"+str(year)+"/teams-fbs.json", year, week_number)
-    a.get_weekly_games()
+    # while week_number <= 15:
+    a = App("lib/{0}/teams-fbs.json".format(year), "lib/{0}/teams-fbs.json".format(year), year, week_number)
+    # a.get_weekly_games()
+    # a.sval_calc()
 
-    # week_number = week_number + 1
-
-    a.sval_calc()
-
-    if week_number >= 1:
-        a.recalc_talent_mod()
+    # if week_number >= 1:
+    #     a.recalc_talent_mod()
+        
+        # week_number = week_number + 1
 
     # a.new_year_talent()
 
     # a.update_db()
 
-    # a.update_teamsjson()
+    a.win_probability()
 
 
 if __name__ == "__main__":
